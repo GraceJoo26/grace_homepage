@@ -42,12 +42,13 @@
     z-index:5;  background-image: url("../../img/federico-beccari_01.jpg");}
   
   .blink_area {
-    width: 100%; height:5000px; background-color:var(--co-bl);
+    width: 100%; height:2500px; background-color:var(--co-bl);
   }
   /*--------------------picture-----------------*/
   #subNavBox{
-    width: 100%; min-width: 1366px; max-width:1920px; height:auto; min-height:1546px;
-    margin:auto; background-color: var(--co-bl) ;}
+    width: 100%; min-width: 1366px; max-width:1920px;
+    height:600px; margin:auto; background-color: var(--co-bl);
+  }
     .nav{
       font-family: Lekton;
       position:fixed;
@@ -80,7 +81,7 @@
   
   #contentBox{
     position:relative;
-    width: 100%; height:109.809663vw; margin:auto; 
+    width: 100%; height:1000px; margin:auto; 
     background-color: var(--co-bl); 
     text-transform: uppercase;
   }
@@ -213,13 +214,15 @@
 
   #footBox{
     font-family:Lekton;
-    width: 100%; height: 700px; background-color:var(--co-bl);
+    position:relative;
+    width: 100%; height: 1000px; background-color:var(--co-bl);
   }
+ 
   .circle{
     position:absolute;
-    z-index: 1499;
+    z-index: 1400;
     top:0;
-    right:10vw;
+    left:25vw;
     width:5.490483vw;
     height:5.490483vw;
     background-color:rgba(255,139,0,0.5);
