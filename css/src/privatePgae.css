@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
+
+@font-face{
+  font-family: 'Lekton', sans-serif;
+  src:url('../../fonts/Lekton-Regular.ttf')}
+#wrap {
+    width: 100%; min-width:1280px;
+    height:auto;  min-height:3000px;
+    background-color: var(--co-bl);
+  }
+  
+  #headBox{position: fixed; z-index:1500; top: 0; left: 0;
+    width: 100%;  height:100vh; min-height:600px;}
+  #headBox.default::before{ 
+      content:" "; display:block;position:absolute; top:0; left:0; z-index:500;
+      width:100%; height:100%;
+    }
+  h1{
+    z-index:100;
+    position: absolute; left: -600px; right: 0; top: 100px; bottom:0; margin:auto;
+    width:500px; height:500px; background-color:rgba( 0 16 30 0.5);
+  }
+  h1 a{
+    background-image: url("../../img/gracesite_02.png");
+    background-size:contain;}
+  
+  .image_area {
+    position: absolute; top: 0; left: 0;  width: 100%; height: 100%; }
+  .image_area div {
+    position: absolute; top: 0; left: 0;  width: 100%; height: 150%;
+    background-repeat: no-repeat;   }
+  
+  .front_image{  
+    z-index:10;   
+    background-position:30% 200px; 
+    background-size: cover;
+    left:100%;
+    background-image: url("../../img/rich_hatch_child_03.png");}
+  .back_image{ 
+    background-position:50% 0px; 
+    background-size: cover;
+    z-index:5;  background-image: url("../../img/federico-beccari_01.jpg");}
+  
+  .blink_area {
+    width: 100%; height:5000px; background-color:var(--co-bl);
+  }
+  /*--------------------picture-----------------*/
+  #subNavBox{
+    width: 100%; min-width: 1366px; max-width:1920px; height:auto; min-height:1546px;
+    margin:auto; background-color: var(--co-bl) ;}
+    .nav{
+      font-family: Lekton;
+      position:fixed;
+      top:0;left:0;right:0; 
+      z-index: 1499;
+      margin:auto;
+      width:100%; height:100px;  
+      background-color: var(--co-bl);
+      color:var(--co-wh); text-transform: uppercase;
+    }
+    .logo{
+      float:left;
+      width:87px;height: 100%;
+      background-image: url(../../img/1x/logoEgg.png);
+      background-position: 50% 50%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .nav > ul{float:right; font-size: 1.4rem;}
+    .nav > ul li{
+      width:auto; height:50px;
+      float:left;
+      margin-left:7vw;
+      margin-top:54.64px;
+    }
+    .nav >ul li:hover,
+    .nav> ul li:focus{
+      color:var(--co-or);
+    }
+  
+  #contentBox{
+    position:relative;
+    width: 100%; height:109.809663vw; margin:auto; 
+    background-color: var(--co-bl); 
+    text-transform: uppercase;
+  }
+  
+  .introducingBox{
+    font-family: Lekton;
+    width:77.598829vw; height: 1447px;
+    margin: auto;
+  }
+  .introducingBox li{
+    float:left;
+    color:var(--co-wh);
+    font-size: 1.2rem;
+  }
+  .introducingBox li:first-child{
+    width:42.152778vw;
+    height:7.7777778vw;
+    line-height: 3rem;
+  }
+  .introducingBox .circle_01{
+    position:absolute;
+    left:24vw;
+    z-index: 1400;
+    width:5.490483vw;
+    height:5.490483vw;
+    background-color:rgba(255,139,0,0.5);
+    border-radius: 100%;
+
+  }
+  .introducingBox li:nth-child(3){
+    margin-left:18vw ;
+    margin-top:25vw;
+    width:21.961933vw;
+    height:8.199122vw;
+    line-height: 4.5rem;
+  }
+  .introducingBox .circle_02{
+    position:absolute;
+    left:25vw;
+    top:33vw;
+    z-index: 1400;
+    width:5.490483vw;
+    height:5.490483vw;
+    background-color:rgba(255,139,0,0.5);
+    border-radius: 100%;
+  }
+  .introducingBox li:nth-child(5){
+    width: 29.282577vw;
+    height:47.584187vw;
+    margin-top:13.418741vw;
+    background-image: url(../../img/myPic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  .introducingBox li:nth-child(6){
+    float:right;
+    margin-right:0;
+    margin-top:10vw;
+    width:400px;
+    height:8.199122vw;
+    line-height: 4.5rem;
+    text-align: right;
+  }
+  .introducingBox .circle_03{
+    position:absolute;
+    z-index: 1400;
+    top:84vw;
+    right:12vw;
+    width:5.490483vw;
+    height:5.490483vw;
+    background-color:rgba(255,139,0,0.5);
+    border-radius: 100%;
+  }
+
+  #portfolioBox{
+    position:relative;
+    width:100%;
+    height:65.885798vw;
+    background-color: var(--co-bl);
+  }
+  .portfoliolist{
+    width:77.598829vw;
+    height: 8.052709vw;
+    margin:auto;
+    margin-top: 50%;
+    background-color:var(--co-bl);
+  }
+  .portfoliolist li{
+    font-family: Lekton;
+    width:auto; height:auto;
+    float:left;
+    margin:auto;
+    margin-top:3rem;
+    text-align:center;
+    font-size: 1.3rem;
+    color:var(--co-wh);
+  }
+  .portfoliolist > li:first-child{
+    margin-left: 0;
+  }
+  .portfoliolist > li:nth-child(3){
+    margin-left:30vw;
+  }
+  .portfoliolist > li:nth-child(4){
+    float:right;
+  }
+  .portfoliolist .circle_04{
+    position:absolute;
+    z-index: 1400;
+    top:-4vw;
+    left:8.2vw;
+    width:5.490483vw;
+    height:5.490483vw;
+    background-color:rgba(255,139,0,0.5);
+    border-radius: 100%;
+  }
+  .portfoliolist .circle_05{
+    position:absolute;
+    z-index: 1400;
+    top:0;
+    right:10vw;
+    width:5.490483vw;
+    height:5.490483vw;
+    background-color:rgba(255,139,0,0.5);
+    border-radius: 100%;
+  }
+
+  
+
+  #footBox{
+    font-family:Lekton;
+    width: 100%; height: 700px; background-color:var(--co-bl);
+  }
+  .circle{
+    position:absolute;
+    z-index: 1499;
+    top:0;
+    right:10vw;
+    width:5.490483vw;
+    height:5.490483vw;
+    background-color:rgba(255,139,0,0.5);
+    border-radius: 100%;
+  }
+  .footWrap{
+    width:45.387994vw;
+    height:20.497804vw;
+    margin:auto;margin-top: 30vw;
+  }
+  .footWrap dt{
+    font-size: 1.4rem;
+    margin-top:2rem;
+    color:var(--co-wh);
+  }
+  .footWrap dd{
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color:var(--co-wh);
+  }
+    
+    #snowflakeContainer {
+      position: absolute;
+      z-index: 1501;
+      left: 0px;
+      top: 0px;
+  }
+  .snowflake {
+      padding-left: 15px;
+      font-family: Cambria, Georgia, serif;
+      font-size: 14px;
+      line-height: 24px;
+      position: fixed;
+      color: #FFFFFF;
+      user-select: none;
+      z-index: 1000;
+  }
+  .snowflake:hover {
+      cursor: default;
+  }
