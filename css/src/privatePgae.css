@@ -222,7 +222,7 @@
   .circle{
     position:absolute;
     z-index: 1400;
-    top:30vw;
+    top:20vw;
     left:25vw;
     width:5.490483vw;
     height:5.490483vw;
@@ -232,7 +232,7 @@
   .footWrap{
     width:45.387994vw;
     height:20.497804vw;
-    margin:auto;padding-top: 30vw;
+    margin:auto;padding-top: 20vw;
   }
   .footWrap dt{
     font-size: 1.4rem;
