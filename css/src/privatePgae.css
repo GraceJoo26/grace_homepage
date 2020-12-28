@@ -78,18 +78,19 @@
     .nav> ul li:focus{
       color:var(--co-or);
     }
-  
+  /*-------------contentBox-----------------*/
   #contentBox{
     position:relative;
-    width: 100%; height:1000px; margin:auto; 
+    width: 100%; height:2000px; margin:auto; 
     background-color: var(--co-bl); 
     text-transform: uppercase;
   }
   
   .introducingBox{
     font-family: Lekton;
-    width:77.598829vw; height: 1447px;
+    width:77.598829vw; height: 1500px;
     margin: auto;
+    padding-top: 10vw;
   }
   .introducingBox li{
     float:left;
@@ -156,7 +157,7 @@
     background-color:rgba(255,139,0,0.5);
     border-radius: 100%;
   }
-
+/*----------------portfolioBox----------------*/
   #portfolioBox{
     position:relative;
     width:100%;
@@ -167,7 +168,7 @@
     width:77.598829vw;
     height: 8.052709vw;
     margin:auto;
-    margin-top: 50%;
+    padding-top: 30vw;
     background-color:var(--co-bl);
   }
   .portfoliolist li{
@@ -192,7 +193,7 @@
   .portfoliolist .circle_04{
     position:absolute;
     z-index: 1400;
-    top:-4vw;
+    top:26vw;
     left:8.2vw;
     width:5.490483vw;
     height:5.490483vw;
@@ -202,7 +203,7 @@
   .portfoliolist .circle_05{
     position:absolute;
     z-index: 1400;
-    top:0;
+    top:30vw;
     right:10vw;
     width:5.490483vw;
     height:5.490483vw;
@@ -211,7 +212,7 @@
   }
 
   
-
+/*--------------------footBox-----------------*/
   #footBox{
     font-family:Lekton;
     position:relative;
@@ -221,7 +222,7 @@
   .circle{
     position:absolute;
     z-index: 1400;
-    top:0;
+    top:30vw;
     left:25vw;
     width:5.490483vw;
     height:5.490483vw;
@@ -231,7 +232,7 @@
   .footWrap{
     width:45.387994vw;
     height:20.497804vw;
-    margin:auto;margin-top: 30vw;
+    margin:auto;padding-top: 30vw;
   }
   .footWrap dt{
     font-size: 1.4rem;
