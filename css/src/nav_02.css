@@ -6,10 +6,8 @@
 }
 /*--------------------picture-----------------*/
 #subNavBox {
-  width: 100%;
-  min-width: 1366px;
-  max-width: 1920px;
-  height: 600px;
+  width: 90%;
+  height: 100px;
   margin: auto;
   background-color: var(--co-wh);
 }
@@ -17,11 +15,9 @@
   font-family: 'Lekton-Bold';
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1499;
   margin: auto;
-  width: 100%;
+  z-index: 1499;
+  width: 90%;
   height: 100px;
   background-color: var(--co-wh);
   color: var(--co-bl);
