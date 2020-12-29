@@ -1,18 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
-@font-face {
-  font-family: 'UhBeeYiseul';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeYiseul.woff')
-    format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'SDMiSaeng';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDMiSaeng.woff')
-    format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 @font-face {
   font-family: 'NanumBarunpenR';
   src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
@@ -21,8 +6,8 @@
 }
 
 @font-face {
-  font-family: 'Lekton', sans-serif;
-  src: url('../../fonts/Lekton-Regular.ttf');
+  font-family: 'Lekton-Bold', sans-serif;
+  src: url('../../fonts/Lekton-Bold.ttf');
 }
 #wrap {
   width: 100%;
@@ -103,53 +88,7 @@ h1 a {
   height: 2500px;
   background-color: var(--co-bl);
 }
-/*--------------------picture-----------------*/
-#subNavBox {
-  width: 100%;
-  min-width: 1366px;
-  max-width: 1920px;
-  height: 600px;
-  margin: auto;
-  background-color: var(--co-bl);
-}
-.nav {
-  font-family: Lekton;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1499;
-  margin: auto;
-  width: 100%;
-  height: 100px;
-  background-color: var(--co-bl);
-  color: var(--co-wh);
-  text-transform: uppercase;
-}
-.logo {
-  float: left;
-  width: 87px;
-  height: 100%;
-  background-image: url(../../img/1x/logoEgg.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.nav > ul {
-  float: right;
-  font-size: 1.4rem;
-}
-.nav > ul li {
-  width: auto;
-  height: 50px;
-  float: left;
-  margin-left: 7vw;
-  margin-top: 54.64px;
-}
-.nav > ul li:hover,
-.nav > ul li:focus {
-  color: var(--co-or);
-}
+
 /*-------------contentBox-----------------*/
 #contentBox {
   position: relative;
@@ -287,18 +226,6 @@ h1 a {
   background-color: rgba(255, 139, 0, 0.5);
   border-radius: 100%;
 } */
-
-/*--------------------footBox-----------------*/
-#footBox {
-  font-family: Lekton;
-  position: relative;
-  width: 100%;
-  height: 100px;
-  background-color: #ccc;
-  color: var(--co-bl);
-  text-align: center;
-  padding-top: 1rem;
-}
 
 /*   .circle{
     position:absolute;

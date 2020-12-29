@@ -1,0 +1,11 @@
+/*--------------------footBox-----------------*/
+#footBox {
+  font-family: Lekton;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+  color: var(--co-bl);
+  text-align: center;
+  padding-top: 1rem;
+}
