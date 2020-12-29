@@ -6,9 +6,12 @@
 }
 
 @font-face {
-  font-family: 'Lekton-Bold', sans-serif;
-  src: url('../../fonts/Lekton-Bold.ttf');
+  font-family: 'Lekton-Regular';
+  src: url('../../fonts/Lekton-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
 #wrap {
   width: 100%;
   min-width: 1280px;
@@ -93,7 +96,7 @@ h1 a {
 #contentBox {
   position: relative;
   width: 100%;
-  height: 2000px;
+  height: 1300px;
   margin: auto;
   background-color: var(--co-bl);
   text-transform: uppercase;
@@ -102,7 +105,6 @@ h1 a {
 .introducingBox {
   font-family: Lekton, NanumBarunpenR;
   width: 77.598829vw;
-  height: 1500px;
   margin: auto;
   padding-top: 10vw;
 }
@@ -165,8 +167,8 @@ h1 a {
 .introducingBox .circle_03 {
   position: absolute;
   z-index: 1400;
-  top: 84vw;
-  right: 12vw;
+  top: 108vw;
+  right: 19vw;
   width: 5.490483vw;
   height: 5.490483vw;
   background-color: rgba(255, 139, 0, 0.5);
@@ -273,3 +275,34 @@ h1 a {
       cursor: default;
   }
  */
+/*------------------#explainWrap-------------*/
+
+#explainWrap {
+  margin: auto;
+  width: 1080px;
+  height: 600px;
+}
+#explainWrap div {
+  font-family: lekton-Regular;
+  float: left;
+  margin: auto;
+  box-sizing: border-box;
+  width: 350px;
+  height: 474px;
+  border: 1px solid var(--co-or);
+  text-align: center;
+  line-height: 30rem;
+  color: var(--co-wh);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+#explainWrap div a {
+  display: inline-block;
+  width: 350px;
+  height: 474px;
+}
+#explainWrap div a:hover,
+#explainWrap div a:focus {
+  background-color: var(--co-or-op);
+}

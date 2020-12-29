@@ -1,10 +1,11 @@
 @charset "UTF-8";
 /* variable.css */
 
-:root{
+:root {
   --var: 100%;
 
- --co-bl:#00101e;
- --co-wh:#fff;
- --co-or:#FF8B00;
+  --co-bl: #00101e;
+  --co-wh: #fff;
+  --co-or: #ff8b00;
+  --co-or-op: rgba(255, 139, 0, 0.5);
 }
