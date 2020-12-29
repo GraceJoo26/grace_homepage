@@ -20,7 +20,7 @@
   width: 90%;
   height: 100px;
   background-color: var(--co-bl);
-  color: var(--co-bl);
+  color: var(--co-wh);
   text-transform: uppercase;
 }
 .logo {
