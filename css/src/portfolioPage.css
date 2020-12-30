@@ -63,25 +63,25 @@
   line-height: 2rem;
 }
 .method_01 {
-  margin-left: 2vw;
+  margin-left: 0;
 }
 .method_02 {
-  margin-left: 4vw;
+  margin-left: 3vw;
   width: 150px;
 }
 .method_03 {
   float: left;
   width: 180px;
-  margin-left: 6vw;
+  margin-left: 4vw;
 }
 .method_04 {
   float: left;
-  margin-left: 7vw;
+  margin-left: 5vw;
 }
 .method_05 {
   float: left;
   width: 170px;
-  margin-left: 8vw;
+  margin-left: 6vw;
 }
 #portfolioBox {
   width: 100%;
