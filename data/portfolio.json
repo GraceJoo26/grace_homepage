@@ -5,7 +5,8 @@
         "period":" 제작 기간 : 2020. 12. 10~ 2020. 12. 21 (11일)",
         "hmany":"제작 인원 : 1명",
         "device":" 디바이스 크기 : 노트북, PC",
-        "language":"사용 언어 : HTML, CSS, jQuery"
+        "language":"사용 언어 : HTML, CSS, jQuery",
+        "url":" https://gracejoo26.github.io/project_01_pfizer/"
     },
     {
         "picture":"chagall_flexible_computerFile.png",
@@ -13,7 +14,8 @@
         "period":" 제작 기간 : 2020. 10. 30~ 2020. 12. 3 (34일)",
         "hmany":"제작 인원 : 1명",
         "device":"디바이스 크기 : 모바일, 태블릿, 노트북, PC",
-        "language":"사용 언어 : HTML, CSS, jQuery"
+        "language":"사용 언어 : HTML, CSS, jQuery",
+        "url":" https://gracejoo26.github.io/marc_chagall_Webpage/chagallWeb/"
     },
     {
         "picture":"private.png",
@@ -21,6 +23,7 @@
         "period":" 제작 기간 : 2020. 12. 29 ~ 2020. 12. 30 ",
         "hmany":"제작 인원 : 1명",
         "device":"디바이스 크기 : 노트북, PC",
-        "language":"사용 언어 : HTML, CSS, jQuery"
+        "language":"사용 언어 : HTML, CSS, jQuery",
+        "url":" https://gracejoo26.github.io/grace_homepage/"
     }
 ]

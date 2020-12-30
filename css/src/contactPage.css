@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'NanumBarunpenR';
+    src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'NanumBarunpenB';
+    src: url('../../fonts/NanumBarunpenB.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lekton-Regular';
+    src: url('../../fonts/Lekton-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lekton-Bold';
+    src: url('../../fonts/Lekton-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+ 
+  #themeWrap {
+    font-family:Lekton-Regular,NanumBarunpenB;
+    width: 100%;
+    height: 100px;
+  }
+  #themeWrap .contactTheme {
+    font-family:Lekton-Bold;
+    width: 500px;
+    height: 68px;
+    margin: auto;
+  }
+  .contactTheme dt {
+    font-size: 1.875rem;
+    margin-top: 10vw;
+    text-align: center;
+    color: var(--co-bl);
+  }
+  
+  .contactTheme dd{
+    font-size: 1.125rem;
+    text-align: center;
+    color:var(--co-bl);
+    margin-top: 1.6rem;
+  }
+
+  #contactWrap{
+    font-family:Lekton-Regular,NanumBarunpenR;
+      width:100%; height:1200px;
+  }
+  .emailBox, .addressBox, .gitBox{
+      margin:auto;
+      width:330px; height:107px;
+      margin-top:3vw;
+  }
+  .emailBox dt, .addressBox dt, .gitBox dt{
+      font-size: 1.3rem;
+  }
+  .emailBox dd, .addressBox dd, .gitBox dd{
+    font-size: 1rem;
+}
+.rightNow{
+    width:100px;
+    height:50px;
+}
+.rightNow a{
+    width:100px;
+    height:50px;
+}
+.rightNow a:hover,
+.rightNow a:focus{
+    border:1px solid var(--co-or);
+
+}
+
+.impactBox{
+    margin:auto;
+    margin-top: 10vw;
+    width:345px; 
+    height:500px;
+} 
+
+.impactBox dt{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.impactBox dd{
+    margin-top: 5rem;
+    line-height: 2rem;
+}
+.circle{
+    position:relative;
+    width:75px;
+    height:75px;
+    top:39rem;
+    left:36vw;
+    border-radius: 100%;
+    background-color: var(--co-or-op);
+}

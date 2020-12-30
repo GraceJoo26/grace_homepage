@@ -77,24 +77,52 @@ console.log(portfolio);
 
     
  //----- portWrap_배열
- var insertCode='<dl class="portBox"><dt><span class ="hidden_context">사진</span></dt><dd class="name"></dd><dd class="period"></dd><dd class="participant"></dd><dd class="size"></dd><dd class ="language"></dd><div class="pTagWrap"><p class="detailInfo"><a href="#">상세설명</a></p><p class="homepage"><a href="#">홈페이지</a></p></div></dd></dl>';
+ var insertCode='<dl class="portBox"><dt><span class ="hidden_context">사진</span></dt><dd class="name"></dd><dd class="period"></dd><dd class="participant"></dd><dd class="size"></dd><dd class ="language"></dd><div class="pTagWrap"><p class="detailInfo"><a href="#">상세설명</a></p><p class="homepage"><a href="#"  >홈페이지</a></p></div></dd></dl>';
  var portWrap=$('.portWrap');
  var url='../img/'
  console.log(insertCode);
+ var homepage; 
+ var detailInfo;
+ var portDl;
  
  //----- for문으로 앞으로 만들게 될 포트폴리오도 처리할 수 있게 json에서 불러오기
  var i = 0;
  for(; i < portfolio.length; i+=1){
    portWrap.append(insertCode);
+   portDl = portWrap.children('dl').eq(i);
+   homepage = portDl.find('.homepage');
+   detailInfo = portWrap.find('.detailInfo');
    portWrap.find('dt').eq(i).css({'backgroundImage':'url(' + url + portfolio[i].picture + ')'});
    portWrap.find('.name').eq(i).text(portfolio[i].name);
    portWrap.find('.period').eq(i).text(portfolio[i].period);
    portWrap.find('.participant').eq(i).text(portfolio[i].hmany);
    portWrap.find('.size').eq(i).text(portfolio[i].device);
    portWrap.find('.language').eq(i).text(portfolio[i].language);
-
+   portWrap.find('homepage').eq(i).text();
+   homepage.find('a').attr({'href': portfolio[i].url , 'target':'_blank'});
+   homepageA=homepage.children('a');
+   
+   //마우스 올렸을 때 class 없애기
+   homepage.find('a').on('mouseenter focus',function(e){
+    e.preventDefault();
+    $(this).addClass('on');
+  
+});
+    homepage.find('a').on('mouseleave blur', function(){
+    $(this).removeClass('on');
+})
+    detailInfo.find('a').on('mouseenter focus',function(e){
+      e.preventDefault();
+      $(this).addClass('on');
+    
+    });
+      detailInfo.find('a').on('mouseleave blur', function(){
+      $(this).removeClass('on');
+    })
 
  }
+
+
 
 
 

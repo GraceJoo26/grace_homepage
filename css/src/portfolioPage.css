@@ -18,13 +18,14 @@
   font-style: normal;
 }
 #howToDevelopBox {
-  font-family:NanumBarunpenB;
+  font-family:Lekton-Regular,NanumBarunpenB;
   width: 100%;
-  height: 450px;
+  height: 600px;
 }
 #howToDevelopBox .theme {
+  font-family:Lekton-Regular,NanumBarunpenB;
   width: 500px;
-  height: 68px;
+  height: 120px;
   margin: auto;
   padding-top: 3.51399vw;
 }
@@ -41,15 +42,15 @@
   margin-top: 1.6rem;
 }
 .method_wrap{
-  width:1300px;
-  height:11.42205vw;
+  width:77%;
+  height:20vw;
   margin:auto;
 }
 .method{
   float:left;
   margin:auto;
-  width: 170px; height: 156px;
-  margin-left:108px;
+  width: 175px; height: 156px;
+  margin-left:50px;
   margin-top: 98px;
 }
 .method dt{
@@ -62,6 +63,18 @@
 }
 .method_01{
   margin-left: 0;
+}
+.method_02{
+  width:150px;
+}
+.method_03{
+  width:180px;
+  margin-left: 30px;
+}
+.method_05{
+  float:right;
+  width:170px;
+ 
 }
 #portfolioBox{
   width:100%;
@@ -151,11 +164,11 @@ line-height: 3rem;
   display: block;
   width: 134px; height: 35px;
 }
-.detailInfo a:hover,
-.detailInfo a:focus{
+.detailInfo a.on{
+  
   background-color: var(--co-or-op);
 }
-.homepage a:hover,
-.homepage a:focus{
+.homepage a.on{
+  
   background-color: var(--co-or-op);
 }
