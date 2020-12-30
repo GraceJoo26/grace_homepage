@@ -18,12 +18,12 @@
   font-style: normal;
 }
 #howToDevelopBox {
-  font-family:Lekton-Regular,NanumBarunpenB;
+  font-family: Lekton-Regular, NanumBarunpenB;
   width: 100%;
   height: 600px;
 }
 #howToDevelopBox .theme {
-  font-family:Lekton-Regular,NanumBarunpenB;
+  font-family: Lekton-Regular, NanumBarunpenB;
   width: 500px;
   height: 120px;
   margin: auto;
@@ -35,49 +35,56 @@
   color: var(--co-bl);
 }
 
-.theme dd{
+.theme dd {
   font-size: 1.125rem;
   text-align: center;
-  color:var(--co-bl);
+  color: var(--co-bl);
   margin-top: 1.6rem;
 }
-.method_wrap{
-  width:77%;
-  height:20vw;
-  margin:auto;
+.method_wrap {
+  width: 80%;
+  height: 20vw;
+  margin: auto;
 }
-.method{
-  float:left;
-  margin:auto;
-  width: 175px; height: 156px;
-  margin-left:50px;
+.method {
+  float: left;
+  margin: auto;
+  width: 175px;
+  height: 156px;
+  margin-left: 50px;
   margin-top: 98px;
 }
-.method dt{
+.method dt {
   font-size: 1.25rem;
 }
-.method dd{
+.method dd {
   font-size: 0.875rem;
   margin-top: 1.625rem;
   line-height: 2rem;
 }
-.method_01{
-  margin-left: 0;
+.method_01 {
+  margin-left: 2vw;
 }
-.method_02{
-  width:150px;
+.method_02 {
+  margin-left: 4vw;
+  width: 150px;
 }
-.method_03{
-  width:180px;
-  margin-left: 30px;
+.method_03 {
+  float: left;
+  width: 180px;
+  margin-left: 6vw;
 }
-.method_05{
-  float:right;
-  width:170px;
- 
+.method_04 {
+  float: left;
+  margin-left: 7vw;
 }
-#portfolioBox{
-  width:100%;
+.method_05 {
+  float: left;
+  width: 170px;
+  margin-left: 8vw;
+}
+#portfolioBox {
+  width: 100%;
   height: auto;
 }
 /*---------------------------------portfolioBox---------------*/
@@ -110,65 +117,71 @@
   background-color: #ccc;
   margin-top: 30px;
 }
-.portWrap{
-  width:1124px;
+
+.portWrap {
+  width: 1124px;
   height: 1000;
-  margin:auto;
+  margin: auto;
 }
-.portBox{
+.portBox {
   font-family: 'NanumBarunpenR';
-  float:left;
+  float: left;
   margin-left: 1vw;
-  width:342px; height: 620px;
+  width: 342px;
+  height: 620px;
 }
-.portBox dt{
-  width:336px;
+.portBox dt {
+  width: 336px;
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
-.portBox dd{
-width:300px; height:30px;
-margin-top: 25px;
-margin-left: 6.5%;
-font-size: 1.0625rem;
-line-height: 3rem;
+.portBox dd {
+  width: 300px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 6.5%;
+  font-size: 1.0625rem;
+  line-height: 3rem;
 }
-.pTagWrap{
-  position:relative;
-  margin:auto;
-  top:55px;
-  width:auto; height: 40px;  
+.pTagWrap {
+  position: relative;
+  margin: auto;
+  top: 55px;
+  width: auto;
+  height: 40px;
 }
-.detailInfo{
-  position:absolute;
+.detailInfo {
+  position: absolute;
   z-index: 1000;
   float: left;
-  width: 134px; height: 35px;
+  width: 134px;
+  height: 35px;
   border: 1px solid #ccc;
-  text-align:center;
+  text-align: center;
   line-height: 2vw;
 }
-.homepage{
-  position:absolute;
+.homepage {
+  position: absolute;
   z-index: 1000;
   float: left;
   left: 10rem;
-  width: 134px; height: 35px;
+  width: 134px;
+  height: 35px;
   border: 1px solid #ccc;
-  text-align:center;
+  text-align: center;
   line-height: 2vw;
 }
-.detailInfo a, .homepage a{
+.detailInfo a,
+.homepage a {
   display: block;
-  width: 134px; height: 35px;
+  width: 134px;
+  height: 35px;
 }
-.detailInfo a.on{
-  
+.detailInfo a.on {
   background-color: var(--co-or-op);
 }
-.homepage a.on{
-  
+.homepage a.on {
   background-color: var(--co-or-op);
 }
