@@ -1,4 +1,13 @@
 (function($){
+    $.ajax({
+      url:'../data/portfolio.json',
+      dataType:'json',
+      context:document.body
+    }).done(function(data){
+      var portfolio = data;
+
+console.log(portfolio);
+      
     var win = $(window);
     var winH = win.outerHeight();
     
@@ -65,9 +74,38 @@
       }
   
     }); // win.on('scroll')
-  
+
     
-function setup(){
+ //----- portWrap_배열
+ var insertCode='<dl class="portBox"><dt><span class ="hidden_context">사진</span></dt><dd class="name"></dd><dd class="period"></dd><dd class="participant"></dd><dd class="size"></dd><dd class ="language"></dd><div class="pTagWrap"><p class="detailInfo"><a href="#">상세설명</a></p><p class="homepage"><a href="#">홈페이지</a></p></div></dd></dl>';
+ var portWrap=$('.portWrap');
+ var url='../img/'
+ console.log(insertCode);
+ 
+ //----- for문으로 앞으로 만들게 될 포트폴리오도 처리할 수 있게 json에서 불러오기
+ var i = 0;
+ for(; i < portfolio.length; i+=1){
+   portWrap.append(insertCode);
+   portWrap.find('dt').eq(i).css({'backgroundImage':'url(' + url + portfolio[i].picture + ')'});
+   portWrap.find('.name').eq(i).text(portfolio[i].name);
+   portWrap.find('.period').eq(i).text(portfolio[i].period);
+   portWrap.find('.participant').eq(i).text(portfolio[i].hmany);
+   portWrap.find('.size').eq(i).text(portfolio[i].device);
+   portWrap.find('.language').eq(i).text(portfolio[i].language);
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+    /* function setup(){
   window.addEventListener("DOMContentLoaded",generateSnowflakes,!1),
   window.addEventListener("resize",setResetFlag,!1)
 }
@@ -139,7 +177,9 @@ Snowflake.prototype.update=function(){
   setTranslate3DTransform(this.element,Math.round(this.xPos),
   Math.round(this.yPos)),
   this.yPos>browserHeight&&(this.yPos=-50)
-};
+}; */
   
-  
+});
+
+
   })(jQuery);

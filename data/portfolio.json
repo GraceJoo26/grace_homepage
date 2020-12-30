@@ -1,0 +1,26 @@
+[
+    {
+        "picture":"pfizerwebPic.png",
+        "name":"프로젝트 이름 : Pfizer 홈페이지 리뉴얼",
+        "period":" 제작 기간 : 2020. 12. 10~ 2020. 12. 21 (11일)",
+        "hmany":"제작 인원 : 1명",
+        "device":" 디바이스 크기 : 노트북, PC",
+        "language":"사용 언어 : HTML, CSS, jQuery"
+    },
+    {
+        "picture":"chagall_flexible_computerFile.png",
+        "name":"프로젝트 이름 : Marc Chagall 작품 홈페이지",
+        "period":" 제작 기간 : 2020. 10. 30~ 2020. 12. 3 (34일)",
+        "hmany":"제작 인원 : 1명",
+        "device":"디바이스 크기 : 모바일, 태블릿, 노트북, PC",
+        "language":"사용 언어 : HTML, CSS, jQuery"
+    },
+    {
+        "picture":"private.png",
+        "name":"프로젝트 이름 :  개인 홈페이지",
+        "period":" 제작 기간 : 2020. 12. 29 ~ 2020. 12. 30 ",
+        "hmany":"제작 인원 : 1명",
+        "device":"디바이스 크기 : 노트북, PC",
+        "language":"사용 언어 : HTML, CSS, jQuery"
+    }
+]

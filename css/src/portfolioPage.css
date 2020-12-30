@@ -1,14 +1,161 @@
+@font-face {
+  font-family: 'NanumBarunpenR';
+  src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunpenB';
+  src: url('../../fonts/NanumBarunpenB.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lekton-Regular';
+  src: url('../../fonts/Lekton-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 #howToDevelopBox {
+  font-family:NanumBarunpenB;
   width: 100%;
   height: 450px;
 }
 #howToDevelopBox .theme {
-  width: 404px;
+  width: 500px;
   height: 68px;
   margin: auto;
+  padding-top: 3.51399vw;
 }
 .theme dt {
   font-size: 1.875rem;
   text-align: center;
   color: var(--co-bl);
+}
+
+.theme dd{
+  font-size: 1.125rem;
+  text-align: center;
+  color:var(--co-bl);
+  margin-top: 1.6rem;
+}
+.method_wrap{
+  width:1300px;
+  height:11.42205vw;
+  margin:auto;
+}
+.method{
+  float:left;
+  margin:auto;
+  width: 170px; height: 156px;
+  margin-left:108px;
+  margin-top: 98px;
+}
+.method dt{
+  font-size: 1.25rem;
+}
+.method dd{
+  font-size: 0.875rem;
+  margin-top: 1.625rem;
+  line-height: 2rem;
+}
+.method_01{
+  margin-left: 0;
+}
+#portfolioBox{
+  width:100%;
+  height: auto;
+}
+/*---------------------------------portfolioBox---------------*/
+.portfolio_line_bar {
+  width: 79%;
+  height: 200px;
+  margin: auto;
+  padding-top: 3vw;
+}
+.portfolio_line_bar li {
+  font-family: 'NanumBarunpenR';
+  float: left;
+}
+.portfolio_line_bar li:first-child {
+  width: 6.36896vw;
+  height: 3px;
+  background-color: #ccc;
+  margin-top: 30px;
+}
+.portfolio_line_bar li:nth-child(2) {
+  padding: 20px;
+  color: var(--co-bl);
+  width: 86px;
+  height: 30px;
+  font-size: 1.4rem;
+}
+.portfolio_line_bar li:nth-child(3) {
+  width: 63vw;
+  height: 3px;
+  background-color: #ccc;
+  margin-top: 30px;
+}
+.portWrap{
+  width:1124px;
+  height: 1000;
+  margin:auto;
+}
+.portBox{
+  font-family: 'NanumBarunpenR';
+  float:left;
+  margin-left: 1vw;
+  width:342px; height: 620px;
+}
+.portBox dt{
+  width:336px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.portBox dd{
+width:300px; height:30px;
+margin-top: 25px;
+margin-left: 6.5%;
+font-size: 1.0625rem;
+line-height: 3rem;
+}
+.pTagWrap{
+  position:relative;
+  margin:auto;
+  top:55px;
+  width:auto; height: 40px;  
+}
+.detailInfo{
+  position:absolute;
+  z-index: 1000;
+  float: left;
+  width: 134px; height: 35px;
+  border: 1px solid #ccc;
+  text-align:center;
+  line-height: 2vw;
+}
+.homepage{
+  position:absolute;
+  z-index: 1000;
+  float: left;
+  left: 10rem;
+  width: 134px; height: 35px;
+  border: 1px solid #ccc;
+  text-align:center;
+  line-height: 2vw;
+}
+.detailInfo a, .homepage a{
+  display: block;
+  width: 134px; height: 35px;
+}
+.detailInfo a:hover,
+.detailInfo a:focus{
+  background-color: var(--co-or-op);
+}
+.homepage a:hover,
+.homepage a:focus{
+  background-color: var(--co-or-op);
 }
