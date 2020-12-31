@@ -42,13 +42,14 @@
   margin-top: 1.6rem;
 }
 .method_wrap {
-  width: 80%;
-  height: 20vw;
+  width: 90%;
+  height: 18vw;
   margin: auto;
+  margin-left:20%;
 }
 .method {
-  float: left;
   margin: auto;
+  float: left;
   width: 175px;
   height: 156px;
   margin-left: 50px;
@@ -112,7 +113,7 @@
   font-size: 1.4rem;
 }
 .portfolio_line_bar li:nth-child(3) {
-  width: 63vw;
+  width: 62vw;
   height: 3px;
   background-color: #ccc;
   margin-top: 30px;
