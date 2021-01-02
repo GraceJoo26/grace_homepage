@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'NanumBarunpenR';
+  src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunpenB';
+  src: url('../../fonts/NanumBarunpenB.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lekton-Regular';
+  src: url('../../fonts/Lekton-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#wrap_detailpage {
+  width: 100%;
+  height: auto;
+}
+#detailThemeBox {
+  margin: auto;
+  width: 100%;
+  height: 38.113288vw;
+}
+#detailThemeBox > .detailTheme {
+  margin: auto;
+  padding-top: 7vw;
+  width: 36.603221vw;
+  height: 6.58858vw;
+  text-align: left;
+}
+.detailTheme dt {
+  font-family: Lekton-Regular;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.detailTheme dd {
+  font-family: Lekton-Regular;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.detailsub {
+  font-family: 'Lekton-Regular', 'NanumBarunpenB';
+  margin: auto;
+  padding-top: 7vw;
+  width: 22.603221vw;
+  height: 14.641288vw;
+  line-height: 2.4rem;
+}
+#siteDirection {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.article_01 {
+  float: left;
+  margin-top: 16.105417vw;
+  font-family: 'NanumBarunpenB';
+  margin-left: 10.541728vw;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.article_01 dt {
+  font-size: 1.2rem;
+}
+.article_01 dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.picture_01 {
+  float: left;
+  width: 41.215227vw;
+  height: 56.515373vw;
+}
+.picture_01 li:nth-child(1) {
+  position: absolute;
+  top: 16.105417vw;
+  float: left;
+  z-index: 20;
+  width: 283px;
+  height: 440px;
+  background-image: url(../../img/pfizer_present_recruit.png);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.picture_01 li:nth-child(2) {
+  float: right;
+  margin-top: 5vw;
+  width: 328px;
+  height: 790px;
+  background-image: url(../../img/pfizer_present_mainpage.png);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*============company_analysis======================*/
+#company_analysis {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+#companyAnalysis {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.analysisTheme {
+  float: left;
+  margin-top: 25%;
+  font-family: 'NanumBarunpenB';
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.analysisTheme dt {
+  font-size: 1.2rem;
+}
+.analysisTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.swot {
+  font-family: 'NanumBarunpenB';
+  float: left;
+  margin-top: 8vw;
+  width: 41.215227vw;
+  height: 56.515373vw;
+}
+.swot dl {
+  float: left;
+  width: 250px;
+  height: 354px;
+}
+.swot dt {
+  font-size: 1rem;
+}
+.swot dd {
+  font-size: 0.75rem;
+  margin-top: 3rem;
+  line-height: 1.5rem;
+}
+.swot > .swotWeakness,
+.swot > .swotThreat {
+  float: right;
+}

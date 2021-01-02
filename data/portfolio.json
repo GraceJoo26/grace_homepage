@@ -6,7 +6,8 @@
         "hmany":"제작 인원 : 1명",
         "device":" 디바이스 크기 : 노트북, PC",
         "language":"사용 언어 : HTML, CSS, jQuery",
-        "url":" https://gracejoo26.github.io/project_01_pfizer/"
+        "url":" https://gracejoo26.github.io/project_01_pfizer/",
+        "url_02":"detailpage_pfizer.html"
     },
     {
         "picture":"chagall_flexible_computerFile.png",
@@ -15,7 +16,8 @@
         "hmany":"제작 인원 : 1명",
         "device":"디바이스 크기 : 모바일, 태블릿, 노트북, PC",
         "language":"사용 언어 : HTML, CSS, jQuery",
-        "url":" https://gracejoo26.github.io/marc_chagall_Webpage/chagallWeb/"
+        "url":" https://gracejoo26.github.io/marc_chagall_Webpage/chagallWeb/",
+        "url_02":"detailpage_chagall.html"
     },
     {
         "picture":"private.png",
@@ -24,6 +26,7 @@
         "hmany":"제작 인원 : 1명",
         "device":"디바이스 크기 : 노트북, PC",
         "language":"사용 언어 : HTML, CSS, jQuery",
-        "url":" https://gracejoo26.github.io/grace_homepage/"
+        "url":" https://gracejoo26.github.io/grace_homepage/",
+        "url_02":"detailpage_mypage.html"
     }
 ]

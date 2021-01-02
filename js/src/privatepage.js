@@ -77,11 +77,12 @@ console.log(portfolio);
 
     
  //----- portWrap_배열
- var insertCode='<dl class="portBox"><dt><span class ="hidden_context">사진</span></dt><dd class="name"></dd><dd class="period"></dd><dd class="participant"></dd><dd class="size"></dd><dd class ="language"></dd><div class="pTagWrap"><p class="detailInfo"><a href="#">상세설명</a></p><p class="homepage"><a href="#"  >홈페이지</a></p></div></dd></dl>';
+ var insertCode='<dl class="portBox"><dt><span class ="hidden_context">사진</span></dt><dd class="name"></dd><dd class="period"></dd><dd class="participant"></dd><dd class="size"></dd><dd class ="language"></dd><div class="pTagWrap"><p class="detailInfo"><a href="#">상세설명</a></p><p class="homepage"><a href="#">홈페이지</a></p></div></dd></dl>';
  var portWrap=$('.portWrap');
  var url='../img/'
+ 
  console.log(insertCode);
- var homepage; 
+ var homepage;
  var detailInfo;
  var portDl;
  
@@ -100,7 +101,8 @@ console.log(portfolio);
    portWrap.find('.language').eq(i).text(portfolio[i].language);
    portWrap.find('homepage').eq(i).text();
    homepage.find('a').attr({'href': portfolio[i].url , 'target':'_blank'});
-   homepageA=homepage.children('a');
+   detailInfo.find('a').eq(i).attr({'href': portfolio[i].url_02 , 'target':'_blank'});
+   
    
    //마우스 올렸을 때 class 없애기
    homepage.find('a').on('mouseenter focus',function(e){
