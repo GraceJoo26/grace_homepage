@@ -124,90 +124,51 @@ console.log(portfolio);
 
  }
 
+ //slideBanner만들기
+
+ var codingUl = $('.codingPicUl');
+ var codingLi = codingUl.children('li');
+ var cloneLi = codingLi.eq(-1).clone(true);
+ var newUl = codingUl.prepend(cloneLi);
+ var newLi = newUl.children('li');
+ var newLen = newLi.length; 
+  codingUl.css({'position':'relative' , 'marginLeft': -100 + '%', 'width': ( (100 * newLen)) + '%'  });
+  newLi.css({width:(100/newLen)+'%'});
+  newUl.css({'position':'relative' ,'left': -100 + '%' , 'width': ( (100 * newLen)) + '%'  });
+ var prevbtn = $('.prev');
+ var nextbtn = $('.next');
 
 
+  var slideN = 0;
 
-
-
-
-
-
-
-
-
-    /* function setup(){
-  window.addEventListener("DOMContentLoaded",generateSnowflakes,!1),
-  window.addEventListener("resize",setResetFlag,!1)
-}
-function getSupportedPropertyName(a){
-  for(var b=0;b<a.length;b++)
-  if("undefined"!=typeof document.body.style[a[b]])
-  return a[b];
-  return null
-}
-function Snowflake(a,b,c,d){
-  this.element=a,
-  this.speed=b,
-  this.xPos=c,
-  this.yPos=d,
-  this.counter=0,
-  this.sign=Math.random()<.5?1:-1,
-  this.element.style.opacity=.1+Math.random(),
-  this.element.style.fontSize=12+50*Math.random()+"px"
-}
-function setTranslate3DTransform(a,b,c){
-  var d="translate3d("+b+"px, "+c+"px, 0)";
-  a.style[transformProperty]=d
-}
-function generateSnowflakes(){
-  var a=document.querySelector(".snowflake"),
-  b=a.parentNode;
-  browserWidth=document.documentElement.clientWidth,
-  browserHeight=document.documentElement.clientHeight;
-  for(var c=0;c<numberOfSnowflakes;c++){
-    var d=a.cloneNode(!0);b.appendChild(d);
-    var e=getPosition(50,browserWidth),
-    f=getPosition(50,browserHeight),
-    g=5+40*Math.random(),
-    h=new Snowflake(d,g,e,f);
-    snowflakes.push(h)
+  nextbtn.on( 'click', function(e){
+    e.preventDefault();
+    if( slideN >= codingLi.length -1 ){
+      slideN = -1;
+      codingUl.css({ left : ( slideN * -100 ) + '%' });
   }
-  b.removeChild(a),moveSnowflakes()
-}
-function moveSnowflakes(){
-  for(var a=0;a<snowflakes.length;a++){
-    var b=snowflakes[a];b.update()
+  slideN+=1;
+  codingUl.stop().animate({ left : ( slideN * -100 ) + '%' });
+  console.log(slideN);  
+});
+
+prevbtn.on('click',function(e){
+  e.preventDefault();
+  if(slideN <= -1){
+    slideN = codingLi.length -1;
+    codingUl.css({left: (-100 * slideN) + '%'});
   }
-  if(resetPosition){
-    browserWidth=document.documentElement.clientWidth,
-    browserHeight=document.documentElement.clientHeight;
-    for(var a=0;a<snowflakes.length;a++){
-      var b=snowflakes[a];
-      b.xPos=getPosition(50,browserWidth),
-      b.yPos=getPosition(50,browserHeight)
-    }
-    resetPosition=!1
-  }
-  requestAnimationFrame(moveSnowflakes)
-}
-function getPosition(a,b){
-  return Math.round(-1*a+Math.random()*(b+2*a))
-}
-function setResetFlag(a){
-  resetPosition=!0
-}
-var requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame,
-transforms=["transform","msTransform","webkitTransform","mozTransform","oTransform"],transformProperty=getSupportedPropertyName(transforms),snowflakes=[],browserWidth,browserHeight,
-numberOfSnowflakes=50,
-resetPosition=!1;setup(),
-Snowflake.prototype.update=function(){
-  this.counter+=this.speed/5e3,
-  this.xPos+=this.sign*this.speed*Math.cos(this.counter)/40,
-  this.yPos+=Math.sin(this.counter)/40+this.speed/30,
-  setTranslate3DTransform(this.element,Math.round(this.xPos),
-  Math.round(this.yPos)),
-  this.yPos>browserHeight&&(this.yPos=-50)
-}; */
+  slideN-=1;
+    codingUl.animate({left: (-100 * slideN) + '%'});
+})
+
+
+
+
+
+
+
+
   
 });
 

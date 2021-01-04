@@ -44,7 +44,7 @@
   font-size: 1.2rem;
 }
 .detailsub {
-  font-family: 'Lekton-Regular', 'NanumBarunpenB';
+  font-family: 'Lekton-Regular';
   margin: auto;
   padding-top: 7vw;
   width: 22.603221vw;
@@ -60,7 +60,6 @@
 .article_01 {
   float: left;
   margin-top: 16.105417vw;
-  font-family: 'NanumBarunpenB';
   margin-left: 10.541728vw;
   width: 36.383602vw;
   height: 35.139092vw;
@@ -116,7 +115,7 @@
 .analysisTheme {
   float: left;
   margin-top: 25%;
-  font-family: 'NanumBarunpenB';
+
   width: 36.383602vw;
   height: 35.139092vw;
   font-size: 0.875rem;
@@ -129,7 +128,6 @@
   line-height: 1.6rem;
 }
 .swot {
-  font-family: 'NanumBarunpenB';
   float: left;
   margin-top: 8vw;
   width: 41.215227vw;
@@ -139,6 +137,7 @@
   float: left;
   width: 250px;
   height: 354px;
+  margin-left: 3vw;
 }
 .swot dt {
   font-size: 1rem;
@@ -151,4 +150,336 @@
 .swot > .swotWeakness,
 .swot > .swotThreat {
   float: right;
+  margin-left: 0;
+}
+/*-----------------------personaBox------------*/
+#personaBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.personaWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.personaTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.personaTheme dt {
+  font-size: 1.2rem;
+}
+.personaTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.pictureBox {
+  float: right;
+  margin: auto;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/persona.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*-----------conceptBox-------------------*/
+#conceptBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.conceptWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.conceptTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.conceptTheme dt {
+  font-size: 1.2rem;
+}
+.conceptTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.concept_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 3vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/color-contrast.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*======================typoBox=============*/
+#typoBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.typoWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.typoTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.typoTheme dt {
+  font-size: 1.2rem;
+}
+
+.typo_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 3vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/typo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*==============prototoypeBox==============*/
+#prototypeBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.prototypeWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.prototypeTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.prototypeTheme dt {
+  font-size: 1.2rem;
+}
+.prototypeTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.prototype_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/sketch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*===================photoshopBox======================*/
+#photoshopBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.photoshopWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.photoshopTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.photoshopTheme dt {
+  font-size: 1.2rem;
+}
+.photoshopTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.photoshop_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/photoshopPfizer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*===================codingBox======================*/
+#codingBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.codingWrap {
+  position: relative;
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.codingTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.codingTheme dt {
+  font-size: 1.2rem;
+}
+.codingTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.coding_pictureBox {
+  float: left;
+  margin: auto;
+  margin-top: 5vw;
+  width: 36.6vw;
+  overflow: hidden;
+}
+.codingPicUl {
+  width: 150.489019vw;
+  height: 50vw;
+}
+.codingPicUl li {
+  float: left;
+  width: 20.497804vw;
+  height: 50vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.codingPicUl .main {
+  background-image: url(../../img/pfizer/210101_pfizerWebMain.png);
+}
+.codingPicUl .introduce {
+  background-image: url(../../img/pfizer/210101_pfizerWebIntroducing.png);
+}
+.codingPicUl .product {
+  background-image: url(../../img/pfizer/210101_pfizerWebProduct.png);
+}
+.codingPicUl .social {
+  background-image: url(../../img/pfizer/210101_pfizerWebSocial.png);
+}
+.codingPicUl .recruit {
+  background-image: url(../../img/pfizer/210101_pfizerWebRecruit.png);
+}
+
+.codingPicUl .introduce:hover {
+  background-image: url(../../img/pfizer/210101_pfizerWebintroducingHover.png);
+}
+.codingPicUl .product:hover {
+  background-image: url(../../img/pfizer/210101_pfizerWebProductHover.png);
+}
+.codingPicUl .social:hover {
+  background-image: url(../../img/pfizer/210101_pfizerWebSocialModal.png);
+}
+.button {
+  position: absolute;
+  top: 80%;
+  left: 37.5%;
+}
+.prev,
+.next {
+  font-size: 2rem;
+}
+.next {
+  margin-left: 3rem;
+}
+.coding_button {
+  position: absolute;
+  top: 60%;
+  left: 29.5%;
+  width: auto;
+  height: auto;
+  border-radius: 100%;
+  line-height: 3rem;
+  font-size: 0.8rem;
+}
+/*
+.coding_button a {
+  width: 100px;
+  height: 100px;
+}
+ */
+.modalBox {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 73.2306442vw;
+  background-color: var(--co-or-op);
+}
+
+.modalUl {
+  margin: auto;
+  margin-top: 10vw;
+  width: 90.33675vw;
+  height: 50.219619vw;
+  background-color: #fff;
+}
+.modalUl li {
+  float: left;
+  background-color: #cdc;
+}
+.modalUl li a {
+  width: 100px;
+  height: 100px;
+  background-color: #cdc;
+}
+
+.html {
+  margin-left: 0;
+  width: 29vw;
+  height: 50.219619vw;
+  background-image: url(../../img/pfizer/210101_pfizerMain_html.png);
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: cover;
+}
+.css {
+  width: 29vw;
+  margin-left: 1.66vw;
+  height: 50.219619vw;
+  background-image: url(../../img/pfizer/);
+}
+.jQuery {
+  width: 29vw;
+  margin-left: 1.66vw;
+  height: 50.219619vw;
 }
