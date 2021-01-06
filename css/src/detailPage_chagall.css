@@ -1,0 +1,15 @@
+.info {
+  margin: auto;
+  width: 300px;
+  height: 50px;
+  transform: rotateX(180deg);
+  text-align: center;
+  padding: 1rem;
+}
+.info_01 {
+  margin: auto;
+  widows: 300px;
+  height: 50px;
+  text-align: center;
+  padding: 1rem;
+}

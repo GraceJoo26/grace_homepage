@@ -560,3 +560,48 @@
   width: 80px;
   height: 80px;
 }
+/*===================valiBox======================*/
+#valiBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.valiWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.valiTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.valiTheme dt {
+  font-size: 1.2rem;
+}
+.valiTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.vali_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/pfizer/validator_01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.tk {
+  width: 340px;
+  height: 50px;
+  margin: auto;
+  font-size: 2rem;
+}
