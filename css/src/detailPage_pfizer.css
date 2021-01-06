@@ -400,7 +400,7 @@
 }
 
 .codingPicUl .main:hover {
-  background-image: url(../../img/pfizer/pfizer_main_hover.png);
+  background-image: url(../../img/pfizer/pfizer_main_hover_01.png);
 }
 .codingPicUl .introduce:hover {
   background-image: url(../../img/pfizer/210101_pfizerWebintroducingHover.png);
@@ -414,7 +414,7 @@
 
 .button {
   position: absolute;
-  top: 55%;
+  top: 70%;
   left: 37.5%;
 }
 .prev,
@@ -428,21 +428,13 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  top: 40%;
+  top: 55%;
   left: 37%;
   font-size: 0.7rem;
 }
-.coding_explain_02 {
-  position: absolute;
-  width: 400px;
-  height: 200px;
-  top: 50%;
-  left: 10%;
-  font-size: 0.8rem;
-}
 .coding_button {
   position: absolute;
-  top: 60%;
+  top: 75%;
   left: 37%;
   width: 100px;
   height: 100px;
@@ -452,6 +444,15 @@
   line-height: 3rem;
   text-align: center;
   background-color: var(--co-or-op);
+}
+.coding_explain_02 {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 50%;
+  left: 10%;
+  font-size: 0.7rem;
+  line-height: 2rem;
 }
 
 .coding_button a {
