@@ -86,6 +86,7 @@
  var detailInfo;
  var portDl;
  
+ 
  //----- for문으로 앞으로 만들게 될 포트폴리오도 처리할 수 있게 json에서 불러오기
  var i = 0;
  for(; i < portfolio.length; i+=1){
@@ -102,6 +103,7 @@
    portWrap.find('homepage').eq(i).text();
    homepage.find('a').attr({'href': portfolio[i].url , 'target':'_blank'});
    detailInfo.find('a').eq(i).attr({'href': portfolio[i].url_02 , 'target':'_blank'});
+   
    
    
    //마우스 올렸을 때 class 없애기
@@ -124,63 +126,7 @@
 
  }
 
- //slideBanner만들기
-
- var codingUl = $('.codingPicUl');
- var codingLi = codingUl.children('li');
- var cloneLi = codingLi.eq(-1).clone(true);
- var newUl = codingUl.prepend(cloneLi);
- var newLi = newUl.children('li');
- var newLen = newLi.length; 
-  codingUl.css({'position':'relative' , 'marginLeft': -100 + '%', 'width': ( (100 * newLen)) + '%'  });
-  newLi.css({width:(100/newLen)+'%'});
-  newUl.css({'position':'relative' ,'left': -100 + '%' , 'width': ( (100 * newLen)) + '%'  });
- var prevbtn = $('.prev');
- var nextbtn = $('.next');
- var codingWrap = $('.codingWrap');
- var codingBtn = codingWrap.children('.coding_button');
- var modalBox = $('.modalBox');
-  var slideN = 0;
-
-  nextbtn.on( 'click', function(e){
-    e.preventDefault();
-    if( slideN >= codingLi.length -1 ){
-      slideN = -1;
-      codingUl.css({ left : ( slideN * -100 ) + '%' });
-  }
-  slideN+=1;
-  codingUl.stop().animate({ left : ( slideN * -100 ) + '%' });
-  
-  codingBtn.on('click',function(e){
-    e.preventDefault();
-    if(modalBox.css("display") == "none"){
-        modalBox.eq(slideN).stop().show();
-        modalBox.eq(slideN).siblings().hide();
-        modalBox.eq(slideN).fadeIn();
-        modalBox.eq(slideN).find('.close').find('a').focus();
-        codingWrap.css({display : 'block'});
-    }
-}); 
-    
-});
-
-prevbtn.on('click',function(e){
-  e.preventDefault();
-  if(slideN <= -1){
-    slideN = codingLi.length -1;
-    codingUl.css({left: (-100 * slideN) + '%'});
-  }
-  slideN-=1;
-    codingUl.animate({left: (-100 * slideN) + '%'});
-})
-
-
-
-
-
-
-
-
+ 
   
 });
 
