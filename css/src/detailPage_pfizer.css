@@ -365,7 +365,7 @@
 }
 
 .coding_pictureBox {
-  float: left;
+  float: right;
   margin: auto;
   margin-top: 5vw;
   width: 36.6vw;
@@ -414,7 +414,7 @@
 
 .button {
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 37.5%;
 }
 .prev,
@@ -427,14 +427,16 @@
 .coding_explain {
   position: absolute;
   width: 200px;
-  height: 200px;
-  top: 50%;
+  height: 100px;
+  top: 30%;
   left: 37%;
   font-size: 0.7rem;
+  background-color: var(--co-or-op);
+  padding: 10px;
 }
 .coding_button {
   position: absolute;
-  top: 70%;
+  top: 56.2%;
   left: 37%;
   width: 100px;
   height: 100px;

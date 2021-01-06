@@ -97,9 +97,11 @@
               if(slideN <= -1){
                 slideN = codingLi.length -1;
                 codingUl.css({left: (-100 * slideN) + '%'});
+                explainUl.css({ left : ( slideN * -100 + '%')});
               }
               slideN-=1;
                 codingUl.animate({left: (-100 * slideN) + '%'});
+                explainUl.stop().animate({ left: ( slideN * -100 ) + '%' });
             })
             
 
