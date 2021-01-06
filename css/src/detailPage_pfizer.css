@@ -449,14 +449,22 @@
 }
 .coding_explain_02 {
   position: absolute;
-  width: 380px;
+  width: 400px;
   height: 100px;
   top: 45%;
   left: 10%;
+  border: 1px solid #171717;
+  overflow: hidden;
+}
+.explainWrap {
+  width: 500%;
+  height: 100px;
+}
+.explainWrap li {
+  float: left;
   font-size: 0.7rem;
   line-height: 2rem;
   text-indent: 0.2rem;
-  border: 1px solid #171717;
 }
 
 .coding_button a {

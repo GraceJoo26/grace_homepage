@@ -15,6 +15,9 @@
         var codingCode = '<div class = "modalBox"><ul class = "modalUl"><li class = "html">HTML</li><li class = "css">CSS</li><li class = "jQuery">jQuery</li></ul><div class = "jQuerylist"></div><li class = "exit"><a href = "#">닫기</a></li></div>';
         var codingUrl = '../../img/pfizer/coding/';
         var codingExplain = $('.coding_explain_02');
+        var explainUl, explainLi;
+        var liCode = '<li></li>'
+        
         
         
         for(; i <= pfizer.length -1; i++){
@@ -24,15 +27,24 @@
             var css = codingBox.find('.css');
             var jQuery = codingBox.find('.jQuery');
             
+            explainUl = codingExplain.children('ul');
+            explainUl.append(liCode);
+            var explainLi = explainUl.find('li');
+            
             html.eq(i).css({'backgroundImage' : 'url('+ codingUrl + pfizer[i].html + ')'});
             css.eq(i).css({'backgroundImage' : 'url('+ codingUrl + pfizer[i].css + ')'});
             jQuery.eq(i).css({'backgroundImage' : 'url('+ codingUrl + pfizer[i].jQuery + ')'});
-            codingExplain.eq(i).text(pfizer[i].explain);
-            
+            explainLi.eq(i).text(pfizer[i].explain);
+
             var exitBtn = codingBox.find('.exit');
             
                 };
-               
+        var cloneExplainLi = explainLi.eq(-1).clone(true);
+         explainUl.prepend(cloneExplainLi);  
+        var newExLi = explainUl.find('li');
+         explainUl.css({position:'relative',marginLeft:-100+'%', width: (400 * newExLi.length)+'px'  });
+         explainLi.css({width:(100/newExLi.length) + '%'});
+         newExLi.css({width:(100/newExLi.length) + '%'});
                
          //slideBanner만들기
             
@@ -50,6 +62,8 @@
         var codingWrap = $('.codingWrap');
         var codingBtn = codingWrap.children('.coding_button');
         var modalBox = $('.modalBox');
+
+        
         var slideN = 0;
     
               nextbtn.on( 'click', function(e){
@@ -57,9 +71,11 @@
                 if( slideN >= codingLi.length -1 ){
                   slideN = -1;
                   codingUl.css({ left : ( slideN * -100 ) + '%' });
+                  explainUl.css({ left : ( slideN * -100 + '%')});
               }
               slideN+=1;
               codingUl.stop().animate({ left : ( slideN * -100 ) + '%' });
+              explainUl.stop().animate({ left: ( slideN * -100 ) + '%' });
 
               codingBtn.on('click',function(e){
                 e.preventDefault();
@@ -69,6 +85,8 @@
                     modalBox.eq(slideN).fadeIn();
                     modalBox.eq(slideN).find('.close').find('a').focus();
                     codingWrap.css({display : 'block'});
+                    codingExplain.css({display : 'block'});
+                    codingExplain.eq(slideN).text();
                 }
             }); 
 
@@ -83,10 +101,10 @@
               slideN-=1;
                 codingUl.animate({left: (-100 * slideN) + '%'});
             })
+            
 
 
-
-
+        
 
             exitBtn.on('click',function(e){
                 e.preventDefault();
