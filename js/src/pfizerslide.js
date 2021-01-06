@@ -67,6 +67,8 @@
         var codingBtn = codingWrap.children('.coding_button');
         var modalBox = $('.modalBox');
 
+        
+        var slideN = 0;
     
               nextbtn.on( 'click', function(e){
                 e.preventDefault();
