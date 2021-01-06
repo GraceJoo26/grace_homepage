@@ -426,9 +426,9 @@
 }
 .coding_explain {
   position: absolute;
-  width: 200px;
-  height: 30px;
-  top: 40%;
+  width: 230px;
+  height: 100px;
+  top: 30%;
   left: 37%;
   font-size: 0.7rem;
   background-color: var(--co-or-op);
