@@ -13,7 +13,7 @@
         
         var i = 0;
         var codingCode = '<div class = "modalBox"><ul class = "modalUl"><li class = "html">HTML</li><li class = "css">CSS</li><li class = "jQuery">jQuery</li></ul><div class = "jQuerylist"></div><li class = "exit"><a href = "#">닫기</a></li></div>';
-        var codingUrl = '../../img/pfizer/coding/';
+        var codingUrl = '../img/pfizer/coding/';
         var codingExplain = $('.coding_explain_02');
         var explainUl, explainLi;
         var liCode = '<li></li>'
@@ -54,11 +54,14 @@
         var newUl = codingUl.prepend(cloneLi);
         var newLi = newUl.children('li');
         var newLen = newLi.length; 
-         codingUl.css({'position':'relative' , 'marginLeft': -100 + '%', 'width': ( (100 * newLen)) + '%'  });
+         
+        codingUl.css({'position':'relative' , 'marginLeft': -100 + '%', 'width': ( (100 * newLen)) + '%'  });
          codingLi.css({width:(100/newLen)+'%'});
          newLi.css({width:(100/newLen)+'%'});
          /* newUl.css({'position':'relative' ,'left': -100 + '%' , 'width': ( (100 * newLen)) + '%'  }); */
-        var prevbtn = $('.prev');
+        
+        
+         var prevbtn = $('.prev');
         var nextbtn = $('.next');
         var codingWrap = $('.codingWrap');
         var codingBtn = codingWrap.children('.coding_button');
@@ -89,8 +92,7 @@
                     codingExplain.css({display : 'block'});
                     codingExplain.eq(slideN).text();
                 }
-            }); 
-
+              }); 
             });
 
             prevbtn.on('click',function(e){
