@@ -69,6 +69,18 @@
 
         
         var slideN = 0;
+            codingBtn.on('click',function(e){
+              e.preventDefault();
+              if(modalBox.css("display") == "none"){
+                  modalBox.eq(0).stop().show();
+                  modalBox.eq(0).siblings().hide();
+                  modalBox.eq(0).fadeIn();
+                  modalBox.eq(0).find('.close').find('a').focus();
+                  codingWrap.css({display : 'block'});
+                  codingExplain.css({display : 'block'});
+                  codingExplain.eq(0).text();
+              }
+            }); 
     
               nextbtn.on( 'click', function(e){
                 e.preventDefault();
