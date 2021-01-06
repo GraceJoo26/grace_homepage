@@ -1,15 +1,618 @@
-.info {
-  margin: auto;
-  width: 300px;
-  height: 50px;
-  transform: rotateX(180deg);
-  text-align: center;
-  padding: 1rem;
+@font-face {
+  font-family: 'NanumBarunpenR';
+  src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
-.info_01 {
+@font-face {
+  font-family: 'NanumBarunpenB';
+  src: url('../../fonts/NanumBarunpenB.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lekton-Regular';
+  src: url('../../fonts/Lekton-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#wrap_detailpage {
+  width: 100%;
+  height: auto;
+}
+#chagall_detailThemeBox {
   margin: auto;
-  widows: 300px;
-  height: 50px;
+  width: 100%;
+  height: 38.113288vw;
+}
+#chagall_detailThemeBox > .chagall_detailTheme {
+  margin: auto;
+  padding-top: 7vw;
+  width: 36.603221vw;
+  height: 6.58858vw;
+  text-align: left;
+}
+.chagall_detailTheme dt {
+  font-family: Lekton-Regular;
   text-align: center;
-  padding: 1rem;
+  font-size: 1.4rem;
+}
+.chagall_detailTheme dd {
+  font-family: Lekton-Regular;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.chagall_detailsub {
+  font-family: 'Lekton-Regular';
+  margin: auto;
+  padding-top: 7vw;
+  width: 26.603221vw;
+  height: 14.641288vw;
+  line-height: 2.4rem;
+}
+/*-----------------#ch_siteDirection----------------*/
+#ch_siteDirection {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_article_01 {
+  float: left;
+  margin-top: 16.105417vw;
+  margin-left: 10.541728vw;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_article_01 dt {
+  font-size: 1.2rem;
+}
+.ch_article_01 dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.ch_picture_01 {
+  float: left;
+  width: 41.215227vw;
+  height: 56.515373vw;
+}
+.ch_picture_01 li:nth-child(1) {
+  position: absolute;
+  top: 16.105417vw;
+  float: left;
+  z-index: 20;
+  width: 283px;
+  height: 440px;
+  background-image: url(../../img/chagall/Marc_Chagall_The_Birthday_1915.png);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ch_picture_01 li:nth-child(2) {
+  float: right;
+  margin-top: 5vw;
+  width: 328px;
+  height: 790px;
+  background-image: url(../../img/chagall/paris_overTheWindow.jpg);
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*============company_analysis======================*/
+#ch_company_analysis {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+#ch_companyAnalysis {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_analysisTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_analysisTheme dt {
+  font-size: 1.2rem;
+}
+.ch_analysisTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.ch_swot {
+  float: right;
+  margin-top: 8vw;
+  width: 41.215227vw;
+  height: 56.515373vw;
+}
+.ch_swot dl {
+  float: left;
+  width: 200px;
+  height: 354px;
+  margin-left: 3vw;
+}
+.ch_swot dt {
+  font-size: 1rem;
+}
+.ch_swot dd {
+  font-size: 0.75rem;
+  margin-top: 3rem;
+  line-height: 1.5rem;
+}
+.ch_swot > .swotWeakness,
+.ch_swot > .swotThreat {
+  float: right;
+  margin-left: 0;
+}
+/*-----------------------personaBox------------*/
+#ch_personaBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_personaWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_personaTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_personaTheme dt {
+  font-size: 1.2rem;
+}
+.ch_personaTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.ch_pictureBox {
+  float: right;
+  margin: auto;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/chagall/persona.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*-----------conceptBox-------------------*/
+#ch_conceptBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_conceptWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_conceptTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_conceptTheme dt {
+  font-size: 1.2rem;
+}
+.ch_conceptTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+.ch_concept_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 3vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/chagall/color_contrast.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.logoConcept {
+  position: absolute;
+  top: 67%;
+  left: 51%;
+  width: 500px;
+  height: 150px;
+  background-image: url(../../img/chagall/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*======================typoBox=============*/
+#ch_typoBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_typoWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_typoTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.typoTheme dt {
+  font-size: 1.2rem;
+}
+
+.ch_typo_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 3vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/chagall/typography.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*==============prototoypeBox==============*/
+#ch_prototypeBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_prototypeWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_prototypeTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_prototypeTheme dt {
+  font-size: 1.2rem;
+}
+.ch_prototypeTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.ch_prototype_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/chagall/prototype.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*===================photoshopBox======================*/
+#ch_photoshopBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_photoshopWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_photoshopTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_photoshopTheme dt {
+  font-size: 1.2rem;
+}
+.ch_photoshopTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.ch_photoshop_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/chagall/chagall_psd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*===================codingBox======================*/
+#ch_codingBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.ch_codingWrap {
+  position: relative;
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.ch_codingTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.ch_codingTheme dt {
+  font-size: 1.2rem;
+}
+.ch_codingTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.ch_coding_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 36.6vw;
+  overflow: hidden;
+}
+.ch_codingPicUl {
+  width: 150.489019vw;
+  height: 50vw;
+}
+.ch_codingPicUl li {
+  float: left;
+  width: 20.497804vw;
+  height: 50vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.ch_codingPicUl .main {
+  background-image: url(../../img/pfizer/pfizer_main.png);
+}
+.ch_codingPicUl .introduce {
+  background-image: url(../../img/pfizer/210101_pfizerWebIntroducing.png);
+}
+.ch_codingPicUl .product {
+  background-image: url(../../img/pfizer/210101_pfizerWebProduct.png);
+}
+.ch_codingPicUl .social {
+  background-image: url(../../img/pfizer/210101_pfizerWebSocial.png);
+}
+.ch_codingPicUl .recruit {
+  background-image: url(../../img/pfizer/210101_pfizerWebRecruit.png);
+}
+
+.ch_codingPicUl .main:hover {
+  background-image: url(../../img/pfizer/pfizer_main_hover_01.png);
+}
+.ch_codingPicUl .introduce:hover {
+  background-image: url(../../img/pfizer/210101_pfizerWebintroducingHover.png);
+}
+.ch_codingPicUl .product:hover {
+  background-image: url(../../img/pfizer/210101_pfizerWebProductHover.png);
+}
+.ch_codingPicUl .social:hover {
+  background-image: url(../../img/pfizer/210101_pfizerWebSocialModal.png);
+}
+
+.ch_button {
+  position: absolute;
+  top: 50%;
+  left: 37.5%;
+}
+.prev,
+.next {
+  font-size: 2rem;
+}
+.next {
+  margin-left: 3rem;
+}
+.ch_coding_explain {
+  position: absolute;
+  width: 230px;
+  height: 100px;
+  top: 30%;
+  left: 37%;
+  font-size: 0.7rem;
+  background-color: var(--co-or-op);
+  padding: 10px;
+}
+.ch_coding_button {
+  position: absolute;
+  top: 56.2%;
+  left: 37%;
+  width: 100px;
+  height: 100px;
+  line-height: 1.2 rem;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  text-align: center;
+  border: 1px solid #171717;
+}
+.ch_coding_button:hover {
+  background-color: var(--co-or-op);
+}
+.ch_coding_explain_02 {
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  top: 45%;
+  left: 10%;
+  border: 1px solid #171717;
+  overflow: hidden;
+}
+.ch_explainWrap {
+  width: 500%;
+  height: 100px;
+}
+.ch_explainWrap li {
+  float: left;
+  font-size: 0.7rem;
+  line-height: 2rem;
+  text-indent: 0.2rem;
+}
+
+.ch_coding_button a {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.modalBox {
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 73.2306442vw;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modalUl {
+  margin: auto;
+  margin-top: 10vw;
+  width: 90.33675vw;
+  height: 50.219619vw;
+  background-color: #fff;
+}
+.modalUl li {
+  float: left;
+  font-size: 3rem;
+}
+.modalUl li a {
+  width: 100px;
+  height: 100px;
+}
+
+.html {
+  margin-left: 0;
+  width: 29vw;
+  height: 50.219619vw;
+
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+  background-size: contain;
+}
+.css {
+  width: 29vw;
+  margin-left: 1.66vw;
+  height: 50.219619vw;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 50%;
+}
+.jQuery {
+  width: 29vw;
+  margin-left: 1.66vw;
+  height: 50.219619vw;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
+}
+.jQuerylist {
+  position: absolute;
+  right: 25%;
+  top: 50%;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  text-align: center;
+  line-height: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.exit {
+  position: absolute;
+  top: 12%;
+  right: 2%;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: var(--co-or);
+  font-size: 2rem;
+  text-align: center;
+  line-height: 5rem;
+}
+.exit a {
+  width: 80px;
+  height: 80px;
+}
+/*===================valiBox======================*/
+#valiBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.valiWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.valiTheme {
+  float: left;
+  margin-top: 25%;
+  width: 36.383602vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.valiTheme dt {
+  font-size: 1.2rem;
+}
+.valiTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.vali_pictureBox {
+  float: right;
+  margin: auto;
+  margin-top: 5vw;
+  width: 38.06735vw;
+  height: 50vw;
+  background-image: url(../../img/pfizer/validator_01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.tk {
+  width: 400px;
+  height: 50px;
+  margin: auto;
+  font-size: 2rem;
 }
