@@ -55,8 +55,9 @@
         var newLi = newUl.children('li');
         var newLen = newLi.length; 
          codingUl.css({'position':'relative' , 'marginLeft': -100 + '%', 'width': ( (100 * newLen)) + '%'  });
+         codingLi.css({width:(100/newLen)+'%'});
          newLi.css({width:(100/newLen)+'%'});
-         newUl.css({'position':'relative' ,'left': -100 + '%' , 'width': ( (100 * newLen)) + '%'  });
+         /* newUl.css({'position':'relative' ,'left': -100 + '%' , 'width': ( (100 * newLen)) + '%'  }); */
         var prevbtn = $('.prev');
         var nextbtn = $('.next');
         var codingWrap = $('.codingWrap');

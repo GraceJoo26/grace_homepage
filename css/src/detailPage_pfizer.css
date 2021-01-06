@@ -427,8 +427,8 @@
 .coding_explain {
   position: absolute;
   width: 200px;
-  height: 100px;
-  top: 30%;
+  height: 30px;
+  top: 40%;
   left: 37%;
   font-size: 0.7rem;
   background-color: var(--co-or-op);

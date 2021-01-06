@@ -1,17 +1,17 @@
 [
     {
-        "html":"pfizer_companyInfo_html.png",
-        "css":"pfizer_companyInfo_css.png",
-        "jQuery":"",
-        "detail":"",
-        "explain":"companyInfo를 hover시 배경색이 표시되도록 CSS처리 하였습니다."
-    },
-    {
         "html":"pfizer_mainpage_html.png",
         "css":"pfizer_main_css_main.png",
         "jQuery":"pfizer_main_jQuery_main.png",
         "detail":"pfizer_main_jQueyr_category.png",
         "explain":"스크롤시, 한페이지씩 넘어가도록 jQuery를 구현하였습니다.\nnewsBox에는 좌우 슬라이드배너를 이용하여 슬라이드를 처리하였습니다."
+    },
+    {
+        "html":"pfizer_companyInfo_html.png",
+        "css":"pfizer_companyInfo_css.png",
+        "jQuery":"",
+        "detail":"",
+        "explain":"companyInfo를 hover시 배경색이 표시되도록 CSS처리 하였습니다."
     },
     {
         "html":"pfizer_drugInfo_html.png",
