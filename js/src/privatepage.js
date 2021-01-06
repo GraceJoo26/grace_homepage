@@ -6,7 +6,7 @@
     }).done(function(data){
       var portfolio = data;
 
-console.log(portfolio);
+
       
     var win = $(window);
     var winH = win.outerHeight();
@@ -66,7 +66,7 @@ console.log(portfolio);
      // 3. 비행기 나타나면서 올라가기
      if(scaleR > setN){
         var airPer = (scaleR - setN) * 100;
-        console.log( airPer );
+       
         airPer = (scaleR - setN) * 100;
         // console.log( airPer );
         backImg.css({backgroundPositionY: -(airPer) + 'px'})
@@ -81,7 +81,7 @@ console.log(portfolio);
  var portWrap=$('.portWrap');
  var url='../img/'
  
- console.log(insertCode);
+
  var homepage;
  var detailInfo;
  var portDl;
@@ -137,8 +137,9 @@ console.log(portfolio);
   newUl.css({'position':'relative' ,'left': -100 + '%' , 'width': ( (100 * newLen)) + '%'  });
  var prevbtn = $('.prev');
  var nextbtn = $('.next');
-
-
+ var codingWrap = $('.codingWrap');
+ var codingBtn = codingWrap.children('.coding_button');
+ var modalBox = $('.modalBox');
   var slideN = 0;
 
   nextbtn.on( 'click', function(e){
@@ -149,7 +150,18 @@ console.log(portfolio);
   }
   slideN+=1;
   codingUl.stop().animate({ left : ( slideN * -100 ) + '%' });
-  console.log(slideN);  
+  
+  codingBtn.on('click',function(e){
+    e.preventDefault();
+    if(modalBox.css("display") == "none"){
+        modalBox.eq(slideN).stop().show();
+        modalBox.eq(slideN).siblings().hide();
+        modalBox.eq(slideN).fadeIn();
+        modalBox.eq(slideN).find('.close').find('a').focus();
+        codingWrap.css({display : 'block'});
+    }
+}); 
+    
 });
 
 prevbtn.on('click',function(e){

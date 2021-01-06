@@ -207,34 +207,37 @@
         
         <div class = "coding_pictureBox">
           <ul class = "codingPicUl">
-            <li class = "main"></li>
-            <li class = "introduce"></li>
-            <li class = "product"></li>
-            <li class = "social"></li>
-            <li class = "recruit"></li>
+            <li class = "introduce"><span class = "hidden_context">소개페이지 사진</span></li>
+            <li class = "main"><span class = "hidden_context">메인페이지 사진</span></li>
+            <li class = "product"><span class = "hidden_context">제품페이지 사진</span></li>
+            <li class = "social"><span class = "hidden_context">사회공헌페이지 사진</span></li>
+            <li class = "recruit"><span class = "hidden_context">채용페이지 사진</span></li>
           </ul>
         </div>
-        
-        <!-- <div class = "coding_button">
-          <a href = "#">코딩 확인!</a>
-        </div> -->
+        <div class = "coding_explain">
+          마우스를 페이지에 올리시면<br/>
+          구현 모습을 확인 하실 수 있습니다^^!<br/><br/>
+          <button type = "button" >
+            <i class="fas fa-chevron-right"></i>
+          </button>를 한 번 클릭하신뒤<br/> 
+          아래 코딩보기를 눌러주세요!<br/>
+          (에러를 잡는 중 입니당..T,T)<br/>
+
+        </div>
         <div class = "coding_button">
-          각 페이지의 코딩을 확인하시려면 <i class="fas fa-arrow-right"></i><br/> 
-          페이지를 클릭해주세요!
+          <a href = "#">코딩보기<br/>클릭!</a>
         </div> 
         <div class = "button">
           <button type = "button" class = "prev"><i class="fas fa-chevron-left"></i><span class = "hidden_context">이전버튼</span></button>
           <button type = "button" class = "next"><i class="fas fa-chevron-right"></i><span class = "hidden_context">다음버튼</span></button>
         </div>
       </div> 
-      <div class = "modalBox">
-        <ul class = "modalUl">
-          <li class = "html"></li>
-          <li class = "css"></li>
-          <li class = "jQuery"></li>
-        </ul>
-        <li class = "exit"><a href = "#">닫기</a></li>
+      <div class ="coding_explain_02">
+        스크롤시, 한페이지씩 넘어가도록 jQuery를 구현하였습니다.<br/> 
+        newsBox에는 좌우 슬라이드배너를 이용하여 슬라이드를 처리하였습니다.
       </div>
+      
+      
     </article>
    <!--============================================--> 
         <!--===========footBox입니다========================================================-->
@@ -247,6 +250,7 @@
   <!-- script -->
   <script src="../js/base/jquery-3.5.1.js"></script>
   <script src="../js/base/jquery-ui.js"></script>
+  <script src="../js/src/pfizerslide.js"></script>
   <script src="../js/src/privatepage.js"></script>
 
   

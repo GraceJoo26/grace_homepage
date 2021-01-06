@@ -1,0 +1,37 @@
+[
+    {
+        "html":"pfizer_companyInfo_html.png",
+        "css":"pfizer_companyInfo_css.png",
+        "jQuery":"",
+        "detail":"",
+        "explain":""
+    },
+    {
+        "html":"pfizer_mainpage_html.png",
+        "css":"pfizer_main_css_main.png",
+        "jQuery":"pfizer_main_jQuery_main.png",
+        "detail":"pfizer_main_jQueyr_category.png",
+        "explain":"스크롤시, 한페이지씩 넘어가도록 jQuery를 구현하였습니다.\n newsBox에는 좌우 슬라이드배너를 이용하여 슬라이드를 처리하였습니다."
+    },
+    {
+        "html":"pfizer_drugInfo_html.png",
+        "css":"pfizer_drugInfo_css.png",
+        "jQuery":"pfizer_drugInfo_jQuery.png",
+        "detail":"",
+        "explain":"hover시 배경과 함께 (명도대비를 위함) \n약 이름과 성분이 나오게끔 jQuery구현하였습니다."
+    },
+    {
+        "html":"pfizer_social_html.png",
+        "css":"pfizer_social_css.png",
+        "jQuery":"pfizer_social_jQuery.png",
+        "detail":"",
+        "explain":"사진을 클릭시, modal창이 뜨면서 \n 상세설명이 나오게끔 구현하였습니다."
+    },
+    {
+        "html":"pfizer_recruit_html.png",
+        "css":"pfizer_recruit_css.png",
+        "jQuery":"",
+        "detail":"",
+        "explain":"dl과 dt,dd, ul과 li를 이용한 html로 작성하였습니다."
+    }
+]
