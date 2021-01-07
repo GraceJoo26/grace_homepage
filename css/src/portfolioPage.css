@@ -30,22 +30,24 @@
   padding-top: 3.51399vw;
 }
 .theme dt {
+  margin: auto;
   font-size: 1.875rem;
   text-align: center;
   color: var(--co-bl);
 }
 
 .theme dd {
+  margin: auto;
   font-size: 1.125rem;
   text-align: center;
   color: var(--co-bl);
   margin-top: 1.6rem;
 }
 .method_wrap {
-  width: 90%;
+  width: 81%;
   height: 18vw;
   margin: auto;
-  margin-left:20%;
+  text-align: center;
 }
 .method {
   margin: auto;
@@ -90,7 +92,7 @@
 }
 /*---------------------------------portfolioBox---------------*/
 .portfolio_line_bar {
-  width: 79%;
+  width: 1000px;
   height: 200px;
   margin: auto;
   padding-top: 3vw;
@@ -113,7 +115,7 @@
   font-size: 1.4rem;
 }
 .portfolio_line_bar li:nth-child(3) {
-  width: 62vw;
+  width: 70%;
   height: 3px;
   background-color: #ccc;
   margin-top: 30px;
@@ -121,7 +123,7 @@
 
 .portWrap {
   width: 1124px;
-  height: 1000;
+  height: 1500px;
   margin: auto;
 }
 .portBox {
@@ -130,6 +132,7 @@
   margin-left: 1vw;
   width: 342px;
   height: 620px;
+  margin-top: 2rem;
 }
 .portBox dt {
   width: 336px;
