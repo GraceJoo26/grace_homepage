@@ -616,3 +616,16 @@
   margin: auto;
   font-size: 2rem;
 }
+.review {
+  position: absolute;
+  top: 60%;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+.review dt {
+  width: 200px;
+  font-size: 1.4rem;
+}
+.review dd {
+}

@@ -599,7 +599,46 @@
   background-position: 50% 50%;
 }
 
+#reviewBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.reviewWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.reviewTheme {
+  float: left;
+  margin-top: 25%;
+  width: 30vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.reviewTheme dt {
+  font-size: 1.2rem;
+}
+.reviewTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.review_pictureBox {
+  float: right;
+  margin: auto;
+  width: 47.5988287vw;
+  height: 58.56515373vw;
+  background-image: url(../../img/chagall/coding/bgc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 .tk {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: 400px;
   height: 50px;
   margin: auto;
