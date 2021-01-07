@@ -388,39 +388,45 @@
 }
 .ch_codingPicUl li {
   float: left;
-  width: 20.497804vw;
+  width: 30.497804vw;
   height: 50vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+}
+.ch_codingPicUl .main {
+  background-image: url(../../img/chagall/site/main.png);
+}
+.ch_codingPicUl .exhibition {
+  background-image: url(../../img/chagall/site/exhibition.png);
+}
+.ch_codingPicUl .product {
+  background-image: url(../../img/chagall/site/store.png);
+}
+.ch_codingPicUl .top {
+  background-image: url(../../img/chagall/site/storePic_moreBtn.png);
+}
+.ch_codingPicUl .loginPage {
+  background-image: url(../../img/chagall/site/storeHearton.png);
+}
+.ch_codingPicUl .search {
+  background-image: url(../../img/chagall/site/search.png);
+}
+
+.ch_codingPicUl .main:hover {
+  background-image: url(../../img/chagall/site/main_hover.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.ch_codingPicUl .main {
-  background-image: url(../../img/pfizer/pfizer_main.png);
+.ch_codingPicUl .top:hover {
+  background-image: url(../../img/chagall/site/topBTn.png);
 }
-.ch_codingPicUl .introduce {
-  background-image: url(../../img/pfizer/210101_pfizerWebIntroducing.png);
+.ch_codingPicUl .loginPage:hover {
+  background-image: url(../../img/chagall/site/store_heart_hover.png);
 }
-.ch_codingPicUl .product {
-  background-image: url(../../img/pfizer/210101_pfizerWebProduct.png);
-}
-.ch_codingPicUl .social {
-  background-image: url(../../img/pfizer/210101_pfizerWebSocial.png);
-}
-.ch_codingPicUl .recruit {
-  background-image: url(../../img/pfizer/210101_pfizerWebRecruit.png);
-}
-
-.ch_codingPicUl .main:hover {
-  background-image: url(../../img/pfizer/pfizer_main_hover_01.png);
-}
-.ch_codingPicUl .introduce:hover {
-  background-image: url(../../img/pfizer/210101_pfizerWebintroducingHover.png);
-}
-.ch_codingPicUl .product:hover {
-  background-image: url(../../img/pfizer/210101_pfizerWebProductHover.png);
-}
-.ch_codingPicUl .social:hover {
-  background-image: url(../../img/pfizer/210101_pfizerWebSocialModal.png);
+.ch_codingPicUl .exhibition:hover {
+  background-image: url(../../img/chagall/site/exhibition_hover.png);
 }
 
 .ch_button {
@@ -463,7 +469,7 @@
 .ch_coding_explain_02 {
   position: absolute;
   width: 400px;
-  height: 100px;
+  height: 300px;
   top: 45%;
   left: 10%;
   border: 1px solid #171717;
@@ -536,7 +542,7 @@
   margin-left: 1.66vw;
   height: 50.219619vw;
 
-  background-size: cover;
+  background-size: 150%;
   background-repeat: no-repeat;
   background-position: 0% 70%;
 }
@@ -598,34 +604,62 @@
   line-height: 1.6rem;
 }
 
-.vali_pictureBox {
+.ch_vali_pictureBox {
   float: right;
   margin: auto;
   margin-top: 5vw;
   width: 38.06735vw;
   height: 50vw;
-  background-image: url(../../img/pfizer/validator_01.png);
+  background-image: url(../../img/chagall/htmlcssvalidator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*===================reviewBox======================*/
+
+#reviewBox {
+  position: relative;
+  width: 100%;
+  height: 73.2306442vw;
+  margin: auto;
+}
+.reviewWrap {
+  margin: auto;
+  width: 77.5988287vw;
+  height: 58.56515373vw;
+}
+.reviewTheme {
+  float: left;
+  margin-top: 25%;
+  width: 30vw;
+  height: 35.139092vw;
+  font-size: 0.875rem;
+}
+.reviewTheme dt {
+  font-size: 1.2rem;
+}
+.reviewTheme dd {
+  margin-top: 4.978038vw;
+  line-height: 1.6rem;
+}
+
+.review_pictureBox {
+  float: right;
+  margin: auto;
+  width: 47.5988287vw;
+  height: 58.56515373vw;
+  background-image: url(../../img/chagall/coding/bgc.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 
 .tk {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: 400px;
   height: 50px;
   margin: auto;
   font-size: 2rem;
-}
-.review {
-  position: absolute;
-  top: 60%;
-  width: 500px;
-  height: 500px;
-  margin: auto;
-}
-.review dt {
-  width: 200px;
-  font-size: 1.4rem;
-}
-.review dd {
 }

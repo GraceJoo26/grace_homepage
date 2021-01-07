@@ -1,0 +1,44 @@
+[
+    {
+        "html":"main_html.png",
+        "css":"main_css.png",
+        "jQuery":"main_jQuery.png",
+        "detail":"pfizer_main_jQueyr_category.png",
+        "explain":" 메인페이지는 샤갈 그림을 띄우며 구현이 됩니다. \n모바일에는 header가 있고, 태블릿 노트북과 PC는 헤더를 구현하지 않고 그림 감상에 집중 할 수 있도록 하였습니다.                       상단의 메뉴바를 클릭시 X모양으로 바뀌게 구현하였습니다. 그리고 메뉴 이름들이 따라 나오게 하였습니다"
+    },
+    {
+        "html":"exhibition_html.png",
+        "css":"exhibition_css.png",
+        "jQuery":"exhibition_jQuery.png",
+        "detail":"",
+        "explain":"샤갈의 작품을 설명과 함께 전시해놓은 전시페이지입니다.                                 메인화면에서 ENTER를 클릭하게되면 전시페이지로 들어오게 되는데, 모바일 버전에서는 Slide를 만들어서 클릭하면 글씨와 함께 그림이 넘어가도록,그리고 PC버전에서는 Indicator위에 mousehover, mouseclick, tab을 누르면그림과 글씨가 함께 넘어가게끔 구현하였습니다.                                                             PC버전에서는 인디케이터에 마우스를 올리거나 클릭, tab키를 사용하면 인디케이터의 변형과 함께 그림과 설명창이 함께 넘어가도록 구현하였습니다."
+    },
+    {
+        "html":"store_html.png",
+        "css":"store_css.png",
+        "jQuery":"store_ajax.png",
+        "detail":"",
+        "explain":"상품을 보고 하트를 누를 수 있는 스토어 페이지를 만들어 \n 보았습니다.                                    배열을 사용하여 상품과 상품명을 jQuery로 구현하였습니다.                                         ajax를 배우기 전에는 jQuery페이지 내부에 배열을 써서 바로적용을 했었는데, script의 줄이 길어지면서 가독성 파악이 힘들었습니다.                                   ajax를 배운 후에는 외부의 dataFile을 끌어와서 적용을 시킬 수 있었기 때문에 script의 내용이 많이 정리가 되어 가독성이 높아졌습니다. "
+    },
+    {
+        "html":"store_html_02.png",
+        "css":"store_css_02png.png",
+        "jQuery":"store_02.png",
+        "detail":"",
+        "explain":"한 페이지에 보일 이미지의 개수를 6개로 지정하고, 총 물건의 갯수를 한 페이지에 보일 개수로 나누어서 나머지가 남으면 무조건 반올림하여 한 페이지에 담을 수 있도록 코드를 짜 보았습니다.                       오른쪽은 맨 마지막 9번째의 indicator를 클릭시나타난 상품의 모습입니다                                 .PC버전에서는 더보기 버튼을 누르면 상품이 점점 많아져서 다시 상단으로 올라가기 위해서는 스크롤을 많이 해야하는 번거로움이 있습니다.                              이러한 번거로움을 줄이고자 TOP버튼을 만들어서 누르면 홈페이지 상단으로 올라갈 수 있게 구상하였습니다. headBox에서 약 2500px정도가 내려오면 top버튼이 스르륵 나오게끔 코딩하였습니다."
+    },
+    {
+        "html":"store_login_html.png",
+        "css":"store_login.png",
+        "jQuery":"store_login_jQuery.png",
+        "detail":"",
+        "explain":"상품 상단의 하트버튼을 누르면, 이 회원가입 창이 뜨게 구현 해 보았습니다.                                       미리 css에 창을 만들어놓고, display:none;처리를 해놓았습니다.                                             클릭시, 하트버튼에 색이 입혀지고, 회원가입 창이 fadeIn하게끔 구현하였습니다.                                              이 창을 끄고싶을 땐 X버튼을 눌러 나갈 수있게  코드를 입력하였습니다."
+    },
+    {
+        "html":"search_html.png",
+        "css":"search_css.png",
+        "jQuery":"",
+        "detail":"",
+        "explain":"검색 버튼을 누르면 store페이지로 넘어가도록 구성하였습니다."
+    }
+]
