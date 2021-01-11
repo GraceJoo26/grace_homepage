@@ -1,0 +1,56 @@
+@media only screen and (min-width: 280px) and (max-width: 1100px) {
+  @font-face {
+    font-family: 'NanumBarunpenR';
+    src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'NanumBarunpenB';
+    src: url('../../fonts/NanumBarunpenB.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lekton-Regular';
+    src: url('../../fonts/Lekton-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  #wrap_detailpage {
+    width: 100%;
+    height: 1000px;
+  }
+  #detailThemeBox {
+    margin: auto;
+    width: 100%;
+    height: 1000px;
+    line-height: 2rem;
+  }
+  #detailThemeBox > .detailTheme {
+    margin: auto;
+    padding-top: 7rem;
+    width: 139px;
+    height: 25px;
+    text-align: left;
+  }
+  .detailTheme dt {
+    font-family: Lekton-Regular;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .detailTheme dd {
+    font-family: Lekton-Regular;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .detailsub {
+    font-family: 'Lekton-Regular';
+    margin: auto;
+    margin-top: 10rem;
+    width: 320px;
+    height: 200px;
+    line-height: 2.4rem;
+  }
+}

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1101px) {
+@media only screen and (min-width: 280px) and (max-width: 1100px) {
   @font-face {
     font-family: 'NanumBarunpenR';
     src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
@@ -21,11 +21,11 @@
   #howToDevelopBox {
     font-family: Lekton-Regular, NanumBarunpenB;
     width: 100%;
-    height: 600px;
+    height: 200px;
   }
   #howToDevelopBox .theme {
     font-family: Lekton-Regular, NanumBarunpenB;
-    width: 500px;
+    width: 300px;
     height: 120px;
     margin: auto;
     padding-top: 3.51399vw;
@@ -39,32 +39,33 @@
 
   .theme dd {
     margin: auto;
-    font-size: 1.125rem;
+    font-size: 0.8rem;
     text-align: center;
     color: var(--co-bl);
     margin-top: 1.6rem;
   }
   .method_wrap {
-    width: 1210px;
-    height: 18vw;
+    display: none;
+    width: 380px;
+    height: 68.4px;
     margin: auto;
     text-align: center;
   }
   .method {
     margin: auto;
     float: left;
-    width: 175px;
+    width: 100px;
     height: 156px;
-    margin-left: 50px;
+    margin-left: 5px;
     margin-top: 98px;
   }
   .method dt {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .method dd {
-    font-size: 0.875rem;
+    font-size: 0.5rem;
     margin-top: 1.625rem;
-    line-height: 2rem;
+    line-height: 1rem;
   }
   .method_01 {
     margin-left: 0;
@@ -87,13 +88,16 @@
     width: 170px;
     margin-left: 6vw;
   }
-  #portfolioBox {
-    width: 100%;
-    height: auto;
-  }
   /*---------------------------------portfolioBox---------------*/
+  #profileBox {
+    margin: auto;
+    width: 100%;
+    height: 2000px;
+    background-color: #fff;
+  }
   .portfolio_line_bar {
-    width: 1000px;
+    display: none;
+    width: 80%;
     height: 200px;
     margin: auto;
     padding-top: 3vw;
@@ -103,7 +107,7 @@
     float: left;
   }
   .portfolio_line_bar li:first-child {
-    width: 6.36896vw;
+    width: 10.36896vw;
     height: 3px;
     background-color: #ccc;
     margin-top: 30px;
@@ -116,21 +120,20 @@
     font-size: 1.4rem;
   }
   .portfolio_line_bar li:nth-child(3) {
-    width: 70%;
+    width: 50%;
     height: 3px;
     background-color: #ccc;
     margin-top: 30px;
   }
-
+  /*================portWrap===============*/
   .portWrap {
-    width: 1124px;
-    height: 1500px;
     margin: auto;
+    width: 80%;
+    height: 3000px;
   }
   .portBox {
     font-family: 'NanumBarunpenR';
     float: left;
-    margin-left: 1vw;
     width: 342px;
     height: 620px;
     margin-top: 2rem;
@@ -165,7 +168,7 @@
     height: 35px;
     border: 1px solid #ccc;
     text-align: center;
-    line-height: 2vw;
+    line-height: 2rem;
   }
   .homepage {
     position: absolute;
@@ -176,7 +179,7 @@
     height: 35px;
     border: 1px solid #ccc;
     text-align: center;
-    line-height: 2vw;
+    line-height: 2rem;
   }
   .detailInfo a,
   .homepage a {
