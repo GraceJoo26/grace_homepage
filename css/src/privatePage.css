@@ -279,11 +279,15 @@
   /*------------------#explainWrap-------------*/
 
   #explainWrap {
+    width: 100%;
+    height: 43.923865vw;
+  }
+  .explainWrap {
     margin: auto;
     width: 1080px;
     height: 43.923865vw;
   }
-  #explainWrap div {
+  .explainWrap div {
     font-family: lekton-Regular;
     float: left;
     margin: auto;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 279px) and (max-width: 1366px) {
+@media only screen and (min-width: 279px) and (max-width: 800px) {
   @font-face {
     font-family: 'NanumBarunpenR';
     src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
