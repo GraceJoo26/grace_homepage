@@ -1,60 +1,119 @@
-@font-face {
-  font-family: 'Lekton-Bold';
-  src: url('../../fonts/Lekton-Bold.ttf') format('woff');
-  font-weight: normal;
-  font-style: normal;
+@media only screen and (min-width: 280px) and (max-width: 800px) {
+  /*--------------------#subNavBox-----------------*/
+  #subNavBox {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: var(--co-wh);
+  }
+  .nav {
+    font-family: 'Lekton-Bold';
+    position: fixed;
+    top: 0;
+    margin: auto;
+    z-index: 1499;
+    width: 98%;
+    height: 100px;
+    background-color: var(--co-wh);
+    color: var(--co-bl);
+    text-transform: uppercase;
+  }
+  .logo {
+    float: left;
+    width: 87px;
+    height: 100%;
+    background-image: url(../../img/1x/logoEgg.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .logo a:hover,
+  .logo a:focus {
+    border: 1px solid var(--co-or);
+  }
+  .nav > ul {
+    float: right;
+    font-size: 1rem;
+  }
+  .nav > ul li {
+    width: auto;
+    height: 50px;
+    float: left;
+    margin-left: 7vw;
+    margin-top: 35px;
+    line-height: 3rem;
+  }
+  .nav > ul li:hover,
+  .nav > ul li:focus {
+    color: var(--co-or);
+    border: 1px solid var(--co-or);
+  }
 }
-/*--------------------picture-----------------*/
-#subNavBox {
-  width: 90%;
-  height: 100px;
-  margin: auto;
-  background-color: var(--co-wh);
-}
-.nav {
-  font-family: 'Lekton-Bold';
-  position: fixed;
-  top: 0;
-  margin: auto;
-  z-index: 1499;
-  width: 90%;
-  height: 100px;
-  background-color: var(--co-wh);
-  color: var(--co-bl);
-  text-transform: uppercase;
-}
-.logo {
-  float: left;
-  width: 90px;
-  height: 100%;
-  background-image: url(../../img/1x/logoEgg.png);
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.logo a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.logo a:hover,
-.logo a:focus {
-  border: 1px solid var(--co-or);
-}
-.nav > ul {
-  float: right;
-  font-size: 1.4rem;
-}
-.nav > ul li {
-  width: auto;
-  height: 50px;
-  float: left;
-  margin-left: 7vw;
-  margin-top: 35px;
-  line-height: 3rem;
-}
-.nav > ul li:hover,
-.nav > ul li:focus {
-  color: var(--co-or);
-  border: 1px solid var(--co-or);
+
+@media only screen and (min-width: 801px) {
+  @font-face {
+    font-family: 'Lekton-Bold';
+    src: url('../../fonts/Lekton-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /*--------------------picture-----------------*/
+  #subNavBox {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background-color: var(--co-wh);
+  }
+  .nav {
+    font-family: 'Lekton-Bold';
+    position: fixed;
+    top: 0;
+    margin: auto;
+    z-index: 1499;
+    width: 90%;
+    height: 100px;
+    background-color: var(--co-wh);
+    color: var(--co-bl);
+    text-transform: uppercase;
+  }
+  .logo {
+    float: left;
+    width: 90px;
+    height: 100%;
+    background-image: url(../../img/1x/logoEgg.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .logo a:hover,
+  .logo a:focus {
+    border: 1px solid var(--co-or);
+  }
+  .nav > ul {
+    float: right;
+    font-size: 1.4rem;
+  }
+  .nav > ul li {
+    width: auto;
+    height: 50px;
+    float: left;
+    margin-left: 7vw;
+    margin-top: 35px;
+    line-height: 3rem;
+  }
+  .nav > ul li:hover,
+  .nav > ul li:focus {
+    color: var(--co-or);
+    border: 1px solid var(--co-or);
+  }
 }
