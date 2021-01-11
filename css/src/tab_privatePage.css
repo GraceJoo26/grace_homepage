@@ -1,4 +1,4 @@
-@media only screen and (min-width: 279px) and (max-width: 800px) {
+@media only screen and (min-width: 801px) and (max-width: 1365px) {
   @font-face {
     font-family: 'NanumBarunpenR';
     src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
@@ -38,11 +38,11 @@
     z-index: 100;
     position: absolute;
     left: 15%;
-    top: -11%;
+    top: 20%;
     bottom: 0;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(0 16 30 0.5);
   }
   h1 a {
@@ -70,6 +70,13 @@
     background-size: cover;
     z-index: 5;
     background-image: url('../../img/federico-beccari_01.jpg');
+  }
+  .front_image {
+    z-index: 10;
+    background-position: 60% 200px;
+    background-size: cover;
+    left: 100%;
+    background-image: url('../../img/rich_hatch_child_03.png');
   }
   .blink_area {
     width: 100%;
@@ -164,7 +171,7 @@
   .introducingBox .circle_01 {
     position: absolute;
     left: 10vw;
-    top: 10vw;
+    top: 100px;
     z-index: 1400;
     width: 5.490483vw;
     height: 5.490483vw;
@@ -173,6 +180,7 @@
   }
   .introducingBox li:nth-child(3) {
     margin-top: 120px;
+    margin-left: 10vw;
     width: 45.961933vw;
     height: 8.199122vw;
     line-height: 1.7rem;
@@ -180,7 +188,7 @@
   .introducingBox .circle_02 {
     position: absolute;
     left: 23vw;
-    top: 48vw;
+    top: 500px;
     z-index: 1400;
     width: 5.490483vw;
     height: 5.490483vw;
@@ -189,11 +197,10 @@
   }
   .introducingBox li:nth-child(5) {
     position: absolute;
-    left: 45%;
-    top: 50px;
-    width: 40.282577vw;
-    height: 57.584187vw;
-    margin-top: 5.418741vw;
+    left: 35%;
+    top: 40px;
+    width: 52.631579vw;
+    height: 90%;
     margin-left: 6vw;
     background-image: url(../../img/myPic.jpg);
     background-repeat: no-repeat;
@@ -212,7 +219,7 @@
   .introducingBox .circle_03 {
     position: absolute;
     z-index: 1400;
-    top: 108vw;
+    top: 1000px;
     right: 19vw;
     width: 5.490483vw;
     height: 5.490483vw;
@@ -224,7 +231,7 @@
   #explainWrap {
     margin: auto;
     width: 100%;
-    height: 500px;
+    height: 800px;
     background-color: var(--co-bl);
   }
   .explainWrap {
@@ -235,6 +242,7 @@
   .explainWrap div {
     font-family: lekton-Regular;
     float: left;
+    margin-top: 170px;
     box-sizing: border-box;
     width: 24.474684vw;
     height: 39.473684vw;

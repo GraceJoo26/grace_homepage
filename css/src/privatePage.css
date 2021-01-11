@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1366px) {
   @font-face {
     font-family: 'NanumBarunpenR';
     src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
@@ -175,107 +175,7 @@
     background-color: rgba(255, 139, 0, 0.5);
     border-radius: 100%;
   }
-  /*----------------portfolioBox----------------*/
-  /* #portfolioBox {
-  position: relative;
-  width: 100%;
-  height: 65.885798vw;
-  background-color: var(--co-bl);
-}
-.portfoliolist {
-  width: 77.598829vw;
-  height: 8.052709vw;
-  margin: auto;
-  padding-top: 30vw;
-  background-color: var(--co-bl);
-}
-.portfoliolist li {
-  font-family: Lekton;
-  width: auto;
-  height: auto;
-  float: left;
-  margin: auto;
-  margin-top: 3rem;
-  text-align: center;
-  font-size: 1.3rem;
-  color: var(--co-wh);
-}
-.portfoliolist > li:first-child {
-  margin-left: 0;
-}
-.portfoliolist > li:nth-child(3) {
-  margin-left: 30vw;
-}
-.portfoliolist > li:nth-child(4) {
-  float: right;
-}
-.portfoliolist .circle_04 {
-  position: absolute;
-  z-index: 1400;
-  top: 26vw;
-  left: 8.2vw;
-  width: 5.490483vw;
-  height: 5.490483vw;
-  background-color: rgba(255, 139, 0, 0.5);
-  border-radius: 100%;
-}
-.portfoliolist .circle_05 {
-  position: absolute;
-  z-index: 1400;
-  top: 30vw;
-  right: 10vw;
-  width: 5.490483vw;
-  height: 5.490483vw;
-  background-color: rgba(255, 139, 0, 0.5);
-  border-radius: 100%;
-} */
 
-  /*   .circle{
-    position:absolute;
-    z-index: 1400;
-    top:20vw;
-    left:25vw;
-    width:5.490483vw;
-    height:5.490483vw;
-    background-color:rgba(255,139,0,0.5);
-    border-radius: 100%;
-  }
-  .footWrap{
-    width:45.387994vw;
-    height:20.497804vw;
-    margin:auto;padding-top: 20vw;
-  }
-  .footWrap dt{
-    font-size: 1.4rem;
-    margin-top:2rem;
-    color:var(--co-wh);
-  }
-  .footWrap dd{
-    font-size: 1.2rem;
-    line-height: 3rem;
-    color:var(--co-wh);
-  }
-    
-    #snowflakeContainer {
-      position: absolute;
-      z-index: 1501;
-      left: 0px;
-      top: 0px;
-  }
-  .snowflake {
-      padding-left: 15px;
-      font-family: Cambria, Georgia, serif;
-      font-size: 14px;
-      line-height: 24px;
-      position: fixed;
-      color: #FFFFFF;
-      user-select: none;
-      z-index: 1000;
-  }
-  .snowflake:hover {
-      cursor: default;
-  }
- */
   /*------------------#explainWrap-------------*/
 
   #explainWrap {
