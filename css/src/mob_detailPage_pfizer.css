@@ -239,4 +239,76 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
+  /*======================typoBox=============*/
+  #typoBox {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .typoWrap {
+    margin: auto;
+    width: 77.5988287vw;
+    height: 58.56515373vw;
+  }
+  .typoTheme {
+    float: left;
+    margin-top: 25%;
+    width: 36.383602vw;
+    height: 35.139092vw;
+    font-size: 0.775rem;
+  }
+  .typoTheme dt {
+    font-size: 0.9rem;
+  }
+
+  .typo_pictureBox {
+    float: right;
+    margin: auto;
+    margin-top: 3vw;
+    width: 38.06735vw;
+    height: 50vw;
+    background-image: url(../../img/typo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  /*==============prototoypeBox==============*/
+  #prototypeBox {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .prototypeWrap {
+    margin: auto;
+    width: 77.5988287vw;
+    height: 58.56515373vw;
+  }
+  .prototypeTheme {
+    float: left;
+    margin-top: 25%;
+    width: 36.383602vw;
+    height: 35.139092vw;
+    font-size: 0.775rem;
+  }
+  .prototypeTheme dt {
+    font-size: 0.9rem;
+  }
+  .prototypeTheme dd {
+    margin-top: 4.978038vw;
+    line-height: 1.6rem;
+  }
+
+  .prototype_pictureBox {
+    float: right;
+    margin: auto;
+    margin-top: 10vw;
+    width: 40vw;
+    height: 50vw;
+    background-image: url(../../img/sketch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 }
