@@ -25,7 +25,7 @@
   #detailThemeBox {
     margin: auto;
     width: 100%;
-    height: 1000px;
+    height: 700px;
     line-height: 2rem;
   }
   #detailThemeBox > .detailTheme {
@@ -52,5 +52,111 @@
     width: 320px;
     height: 200px;
     line-height: 2.4rem;
+  }
+  /*=======================#siteDirection==================================*/
+  #siteDirection {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .article_01 {
+    float: left;
+    margin-left: 5vw;
+    margin-top: 10.105417vw;
+    width: 38.383602vw;
+    height: 700px;
+    font-size: 0.775rem;
+  }
+  .article_01 dt {
+    font-size: 0.9rem;
+  }
+  .article_01 dd {
+    margin-top: 5.978038vw;
+    line-height: 1.6rem;
+  }
+  .picture_01 {
+    float: left;
+    width: 20vw;
+    height: 56.515373vw;
+  }
+  .picture_01 li:nth-child(1) {
+    position: absolute;
+    top: 16.105417vw;
+    left: 70%;
+    float: left;
+    z-index: 20;
+    width: 150px;
+    height: 440px;
+    background-image: url(../../img/pfizer_present_recruit.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .picture_01 li:nth-child(2) {
+    position: absolute;
+    float: right;
+    top: -20vw;
+    left: 47%;
+    width: 150px;
+    height: 790px;
+    background-image: url(../../img/pfizer_present_mainpage.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  /*============company_analysis======================*/
+  #company_analysis {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  #companyAnalysis {
+    float: left;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+  }
+  .analysisTheme {
+    float: left;
+    margin-left: 5vw;
+    margin-top: 60.105417vw;
+    width: 33.383602vw;
+    height: 300px;
+    font-size: 0.775rem;
+  }
+  .analysisTheme dt {
+    font-size: 0.9rem;
+  }
+  .analysisTheme dd {
+    margin-top: 4.978038vw;
+    line-height: 1.6rem;
+  }
+  .swot {
+    float: left;
+    margin-top: 8vw;
+    margin-left: 1.2vw;
+    width: 60.421053vw;
+    height: 500px;
+  }
+  .swot dl {
+    float: left;
+    width: 100px;
+    height: 354px;
+    margin-left: 5vw;
+  }
+  .swot dt {
+    font-size: 0.8rem;
+  }
+  .swot dd {
+    font-size: 0.6rem;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+  }
+  .swot > .swotWeakness,
+  .swot > .swotThreat {
+    float: left;
+    margin-left: 2vw;
   }
 }
