@@ -199,4 +199,44 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
+  /*-----------conceptBox-------------------*/
+  #conceptBox {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .conceptWrap {
+    float: left;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+  }
+  .conceptTheme {
+    float: left;
+    margin-left: 5vw;
+    margin-top: 25%;
+    width: 36.383602vw;
+    height: 35.139092vw;
+    font-size: 0.775rem;
+  }
+  .conceptTheme dt {
+    font-size: 0.9rem;
+  }
+  .conceptTheme dd {
+    margin-top: 4.978038vw;
+    line-height: 1.6rem;
+  }
+  .concept_pictureBox {
+    float: right;
+    margin: auto;
+    margin-left: 3vw;
+    margin-top: 10%;
+    width: 53vw;
+    height: 300px;
+    background-image: url(../../img/color-contrast.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 }
