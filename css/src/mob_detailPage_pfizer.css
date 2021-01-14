@@ -159,4 +159,44 @@
     float: left;
     margin-left: 2vw;
   }
+  /*-----------------------personaBox------------*/
+  #personaBox {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .personaWrap {
+    float: left;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+  }
+  .personaTheme {
+    float: left;
+    margin-left: 5vw;
+    margin-top: 60.105417vw;
+    width: 33.383602vw;
+    height: 300px;
+    font-size: 0.775rem;
+  }
+  .personaTheme dt {
+    font-size: 0.9rem;
+  }
+  .personaTheme dd {
+    margin-top: 4.978038vw;
+    line-height: 1.6rem;
+  }
+  .pictureBox {
+    float: right;
+    margin: auto;
+    margin-left: 3vw;
+    margin-top: 160px;
+    width: 53vw;
+    height: 300px;
+    background-image: url(../../img/persona.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
 }
