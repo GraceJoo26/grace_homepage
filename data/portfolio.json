@@ -38,5 +38,15 @@
         "language":"사용 언어 : HTML, CSS, JavaScript",
         "url":" https://gracejoo26.github.io/leicaKoreaWeb/",
         "url_02":"detailpage_leica.html"
+    },
+    {
+        "picture":"dino.png",
+        "name":"프로젝트 이름 : 공룡 게임",
+        "period":" 제작 기간 : 2021. 01. 15 ",
+        "hmany":"제작 인원 : 1명",
+        "device":"디바이스 크기 : mobile, PC (2가지 타입 반응형)",
+        "language":"사용 언어 : HTML, CSS, JavaScript",
+        "url":" https://gracejoo26.github.io/dinosaur_game/",
+        "url_02":"detailpage_dinoGame.html"
     }
 ]
