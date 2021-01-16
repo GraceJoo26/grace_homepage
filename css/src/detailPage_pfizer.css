@@ -133,7 +133,13 @@
     float: left;
     margin-top: 8vw;
     width: 41.215227vw;
-    height: 56.515373vw;
+    height: 400px;
+  }
+  .swot_01 {
+    float: left;
+    margin-top: 9vw;
+    width: 41.215227vw;
+    height: 400px;
   }
   .swot dl {
     float: left;
@@ -149,11 +155,26 @@
     margin-top: 3rem;
     line-height: 1.5rem;
   }
-  .swot > .swotWeakness,
-  .swot > .swotThreat {
-    float: right;
-    margin-left: 0;
+  .swot_01 dl {
+    float: left;
+    width: 250px;
+    height: 354px;
+    margin-left: 3vw;
   }
+  .swot_01 dt {
+    font-size: 1rem;
+  }
+  .swot_01 dd {
+    font-size: 0.75rem;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+  }
+  .swot > .swotWeakness,
+  .swot_01 > .swotThreat {
+    float: left;
+    margin-left: 2vw;
+  }
+  /*--------
   /*-----------------------personaBox------------*/
   #personaBox {
     position: relative;

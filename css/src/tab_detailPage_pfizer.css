@@ -594,4 +594,89 @@
     width: 80px;
     height: 80px;
   }
+  /*===================valiBox======================*/
+  #valiBox {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .valiWrap {
+    margin: auto;
+    width: 77.5988287vw;
+    height: 58.56515373vw;
+  }
+  .valiTheme {
+    float: left;
+    margin-top: 25%;
+    width: 36.383602vw;
+    height: 35.139092vw;
+    font-size: 0.775rem;
+  }
+  .valiTheme dt {
+    font-size: 1rem;
+  }
+  .valiTheme dd {
+    margin-top: 4.978038vw;
+    line-height: 1.6rem;
+  }
+
+  .vali_pictureBox {
+    float: right;
+    margin: auto;
+    margin-top: 5vw;
+    width: 38.06735vw;
+    height: 50vw;
+    background-image: url(../../img/pfizer/validator_01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  #reviewBox {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+  }
+  .reviewWrap {
+    margin: auto;
+    width: 77.5988287vw;
+    height: 58.56515373vw;
+  }
+  .reviewTheme {
+    float: left;
+    margin-top: 25%;
+    width: 30vw;
+    height: 35.139092vw;
+    font-size: 0.775rem;
+  }
+  .reviewTheme dt {
+    font-size: 1rem;
+  }
+  .reviewTheme dd {
+    margin-top: 4.978038vw;
+    line-height: 1.6rem;
+  }
+
+  .review_pictureBox {
+    float: right;
+    margin: auto;
+    margin-top: 200px;
+    width: 47.5988287vw;
+    height: 58.56515373vw;
+    background-image: url(../../img/chagall/coding/bgc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .tk {
+    padding-top: 25rem;
+    padding-bottom: 0rem;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    font-size: 2rem;
+  }
 }
