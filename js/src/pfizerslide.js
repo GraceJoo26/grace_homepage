@@ -116,7 +116,7 @@
                 modalBox.stop().hide();
             })
                   
-                  
+                  console.log(hello);
                   
                   
     })
