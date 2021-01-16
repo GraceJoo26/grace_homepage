@@ -136,9 +136,14 @@
   .swot {
     float: right;
     margin-top: 0vw;
-    margin-right: 5vw;
     width: 45vw;
-    height: 500px;
+    height: 300px;
+  }
+  .swot_01 {
+    float: right;
+    margin-top: 8vw;
+    width: 45vw;
+    height: 300px;
   }
   .swot dl {
     float: left;
@@ -155,8 +160,23 @@
     margin-top: 3rem;
     line-height: 1.5rem;
   }
+  .swot_01 dl {
+    float: left;
+    width: 150px;
+    height: 354px;
+    margin-left: 2vw;
+    margin-top: 5vw;
+  }
+  .swot_01 dt {
+    font-size: 0.8rem;
+  }
+  .swot_01 dd {
+    font-size: 0.6rem;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+  }
   .swot > .swotWeakness,
-  .swot > .swotThreat {
+  .swot_01 > .swotThreat {
     float: left;
     margin-left: 2vw;
   }
