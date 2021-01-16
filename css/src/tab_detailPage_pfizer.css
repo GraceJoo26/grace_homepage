@@ -1,4 +1,4 @@
-@media only screen and (min-width: 280px) and (max-width: 800px) {
+@media only screen and (min-width: 800px) and (max-width: 1399px) {
   @font-face {
     font-family: 'NanumBarunpenR';
     src: url('../../fonts/NanumBarunpenR.ttf') format('woff');
@@ -121,8 +121,8 @@
   .analysisTheme {
     float: left;
     margin-left: 5vw;
-    margin-top: 60.105417vw;
-    width: 33.383602vw;
+    margin-top: 10vw;
+    width: 34.383602vw;
     height: 300px;
     font-size: 0.775rem;
   }
@@ -134,17 +134,18 @@
     line-height: 1.6rem;
   }
   .swot {
-    float: left;
-    margin-top: 8vw;
-    margin-left: 1.2vw;
-    width: 60.421053vw;
+    float: right;
+    margin-top: 0vw;
+    margin-right: 5vw;
+    width: 45vw;
     height: 500px;
   }
   .swot dl {
     float: left;
-    width: 100px;
+    width: 150px;
     height: 354px;
-    margin-left: 5vw;
+    margin-left: 2vw;
+    margin-top: 5vw;
   }
   .swot dt {
     font-size: 0.8rem;
@@ -175,7 +176,7 @@
   .personaTheme {
     float: left;
     margin-left: 5vw;
-    margin-top: 60.105417vw;
+    margin-top: 15vw;
     width: 33.383602vw;
     height: 300px;
     font-size: 0.775rem;
@@ -427,8 +428,8 @@
 
   .button {
     position: absolute;
-    top: 78%;
-    left: 5%;
+    top: 480px;
+    left: 25%;
   }
   .prev,
   .next {
@@ -440,8 +441,8 @@
   .coding_explain {
     position: absolute;
     width: 230px;
-    height: 80px;
-    top: -10%;
+    height: 100px;
+    top: 0%;
     left: 0%;
     font-size: 0.7rem;
     background-color: var(--co-or-op);
@@ -449,8 +450,8 @@
   }
   .coding_button {
     position: absolute;
-    top: 56.2%;
-    left: 37%;
+    top: 450px;
+    left: 0;
     width: 100px;
     height: 100px;
     line-height: 1.2 rem;
@@ -466,7 +467,7 @@
     position: absolute;
     width: 400px;
     height: 100px;
-    top: 45%;
+    top: 600px;
     left: 10%;
     border: 1px solid #171717;
     overflow: hidden;
@@ -494,7 +495,7 @@
     z-index: 10000;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 73.2306442vw;
     background-color: rgba(0, 0, 0, 0.2);
   }
@@ -511,7 +512,7 @@
     font-size: 3rem;
   }
   .modalUl li a {
-    width: 100px;
+    width: 90px;
     height: 100px;
   }
 
