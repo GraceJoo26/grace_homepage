@@ -21,6 +21,8 @@
   #howToDevelopBox {
     font-family: Lekton-Regular, NanumBarunpenB;
     width: 100%;
+    max-width: 1200px;
+    margin:auto;
     height: 600px;
   }
   #howToDevelopBox .theme {
@@ -45,8 +47,8 @@
     margin-top: 1.6rem;
   }
   .method_wrap {
-    width: 1210px;
-    height: 18vw;
+    width: 1200px;
+    height: 500px;
     margin: auto;
     text-align: center;
   }
@@ -57,6 +59,11 @@
     height: 156px;
     margin-left: 50px;
     margin-top: 98px;
+  }
+  .method_inner{
+    margin:auto;
+    width:1050px;
+    height:400px;
   }
   .method dt {
     font-size: 1.25rem;
@@ -70,28 +77,27 @@
     margin-left: 0;
   }
   .method_02 {
-    margin-left: 3vw;
     width: 150px;
   }
   .method_03 {
     float: left;
     width: 180px;
-    margin-left: 4vw;
   }
   .method_04 {
     float: left;
-    margin-left: 5vw;
   }
   .method_05 {
     float: left;
     width: 170px;
-    margin-left: 6vw;
   }
+  
+  /*---------------------------------portfolioBox---------------*/
   #portfolioBox {
     width: 100%;
     height: auto;
+    display: inline-block;
+    margin-bottom: 50px;
   }
-  /*---------------------------------portfolioBox---------------*/
   .portfolio_line_bar {
     width: 1000px;
     height: 200px;
@@ -124,8 +130,8 @@
 
   .portWrap {
     width: 1124px;
-    height: 1500px;
     margin: auto;
+    height:auto;
   }
   .portBox {
     font-family: 'NanumBarunpenR';

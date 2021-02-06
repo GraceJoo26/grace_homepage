@@ -89,10 +89,12 @@
     margin-left: 6vw;
   }
   /*---------------------------------portfolioBox---------------*/
-  #profileBox {
+  #portfolioBox {
     margin: auto;
     width: 100%;
-    height: 2000px;
+    height: auto;
+    display:inline-block;
+    margin-bottom: 50px;
     background-color: #fff;
   }
   .portfolio_line_bar {
@@ -129,7 +131,7 @@
   .portWrap {
     margin: auto;
     width: 80%;
-    height: 3000px;
+    height: auto;
   }
   .portBox {
     font-family: 'NanumBarunpenR';
