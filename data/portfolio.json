@@ -64,9 +64,10 @@
         "name":"프로젝트 이름 : 경기융합과학교육원 메인페이지 퍼블리싱",
         "period":" 제작 기간 : 2021. 04 .23 ~ 2021. 04 .27 (3일) ",
         "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : PC ",
+        "device":"디바이스 크기 : PC, mobile ",
         "language":"사용 언어 : HTML, CSS",
-        "url":"  https://gise.kr"
+        "url":"  https://gise.kr",
+        "url_02":"."
     },
     {
         "picture":"hansen.png",
@@ -75,7 +76,8 @@
         "hmany":"제작 인원 : 2명",
         "device":"디바이스 크기 : PC ",
         "language":"사용 언어 : HTML, CSS",
-        "url":" http://hansentruth.kr/"
+        "url":" http://hansentruth.kr/",
+        "url_02":"detailpage_chunsik.html"
     },
     {
         "picture":"starbucks.png",
