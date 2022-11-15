@@ -1,92 +1,92 @@
 [
-    {
-        "picture":"pfizerwebPic.png",
-        "name":"프로젝트 이름 : Pfizer 홈페이지 리뉴얼",
-        "period":" 제작 기간 : 2020. 12. 10~ 2020. 12. 21 (11일)",
-        "hmany":"제작 인원 : 1명",
-        "device":" 디바이스 크기 : 노트북, PC",
-        "language":"사용 언어 : HTML, CSS, jQuery",
-        "url":" https://gracejoo26.github.io/project_01_pfizer/",
-        "url_02":"detailpage_pfizer.html"
-    },
-    {
-        "picture":"chagall_flexible_computerFile.png",
-        "name":"프로젝트 이름 : Marc Chagall 작품 홈페이지",
-        "period":" 제작 기간 : 2020. 10. 30~ 2020. 12. 3 (34일)",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : 모바일, 태블릿, 노트북, PC",
-        "language":"사용 언어 : HTML, CSS, jQuery",
-        "url":" https://gracejoo26.github.io/marc_chagall_Webpage/chagallWeb/",
-        "url_02":"detailpage_chagall.html"
-    },
-    {
-        "picture":"private.png",
-        "name":"프로젝트 이름 :  개인 홈페이지",
-        "period":" 제작 기간 : 2020. 12. 29 ~ 진행중 ",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : 노트북, PC",
-        "language":"사용 언어 : HTML, CSS, jQuery",
-        "url":" https://gracejoo26.github.io/grace_homepage/",
-        "url_02":"detailpage_mypage.html"
-    },
-    {
-        "picture":"leicaEnterPage.png",
-        "name":"프로젝트 이름 : Leica코리아 홈페이지 따라만들기",
-        "period":" 제작 기간 : 2021. 01. 07 ~ 2021.05. ",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : 모바일, PC (2가지 타입 반응형)",
-        "language":"사용 언어 : HTML, CSS, JavaScript",
-        "url":" https://gracejoo26.github.io/leicaKoreaWeb/",
-        "url_02":"detailpage_leica.html"
-    },
-    {
-        "picture":"dino.png",
-        "name":"프로젝트 이름 : 공룡 게임",
-        "period":" 제작 기간 : 2021. 01. 15 ",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : mobile, PC (2가지 타입 반응형)",
-        "language":"사용 언어 : HTML, CSS, JavaScript",
-        "url":" https://gracejoo26.github.io/dinosaur_game/",
-        "url_02":"detailpage_dinoGame.html"
-    },
-    {
-        "picture":"chunsik_login.png",
-        "name":"프로젝트 이름 : 춘식이_로그인페이지",
-        "period":" 제작 기간 : 2021. 02. 05 ",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : PC ",
-        "language":"사용 언어 : HTML, CSS, JavaScript",
-        "url":"  https://gracejoo26.github.io/chunsik_login/",
-        "url_02":"detailpage_chunsik.html"
-    },
-    {
-        "picture":"gise_kr.png",
-        "name":"프로젝트 이름 : 경기융합과학교육원 메인페이지 퍼블리싱",
-        "period":" 제작 기간 : 2021. 04 .23 ~ 2021. 04 .27 (3일) ",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : PC, mobile ",
-        "language":"사용 언어 : HTML, CSS",
-        "url":"  https://gise.kr",
-        "url_02":"."
-    },
-    {
-        "picture":"hansen.jpg",
-        "name":"프로젝트 이름 : 한센인 피해사건 진상규명 홈페이지 퍼블리싱",
-        "period":" 제작 기간 : 2021. 05. 10 ~ 2021. 05. 13 ",
-        "hmany":"제작 인원 : 2명",
-        "device":"디바이스 크기 : PC ",
-        "language":"사용 언어 : HTML, CSS",
-        "url":" http://hansentruth.kr/",
-        "url_02":"."
-    },
-    {
-        "picture":"starbucks.png",
-        "name":"프로젝트 이름 : 스타벅스_메인페이지",
-        "period":" 제작 기간 : 2021. 06. 22 ~ 2022.06.29 ",
-        "hmany":"제작 인원 : 1명",
-        "device":"디바이스 크기 : PC ",
-        "language":"사용 언어 : HTML, CSS, JavaScript",
-        "url":"  https://gracejoo26.github.io/starbucks/",
-        "url_02":"."
-    },
+  {
+    "picture": "pfizerwebPic.png",
+    "name": "프로젝트 이름 : Pfizer 홈페이지 리뉴얼",
+    "period": " 제작 기간 : 2020. 12. 10~ 2020. 12. 21 (11일)",
+    "hmany": "제작 인원 : 1명",
+    "device": " 디바이스 크기 : 노트북, PC",
+    "language": "사용 언어 : HTML, CSS, jQuery",
+    "url": " https://gracejoo26.github.io/project_01_pfizer/",
+    "url_02": "detailpage_pfizer.html"
+  },
+  {
+    "picture": "chagall_flexible_computerFile.png",
+    "name": "프로젝트 이름 : Marc Chagall 작품 홈페이지",
+    "period": " 제작 기간 : 2020. 10. 30~ 2020. 12. 3 (34일)",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : 모바일, 태블릿, 노트북, PC",
+    "language": "사용 언어 : HTML, CSS, jQuery",
+    "url": " https://gracejoo26.github.io/marc_chagall_Webpage/chagallWeb/",
+    "url_02": "detailpage_chagall.html"
+  },
+  {
+    "picture": "private.png",
+    "name": "프로젝트 이름 :  개인 홈페이지",
+    "period": " 제작 기간 : 2020. 12. 29 ~ 진행중 ",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : 노트북, PC",
+    "language": "사용 언어 : HTML, CSS, jQuery",
+    "url": " https://gracejoo26.github.io/grace_homepage/",
+    "url_02": "detailpage_mypage.html"
+  },
+  {
+    "picture": "leicaEnterPage.png",
+    "name": "프로젝트 이름 : Leica코리아 홈페이지 따라만들기",
+    "period": " 제작 기간 : 2021. 01. 07 ~ 2021.05. ",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : 모바일, PC (2가지 타입 반응형)",
+    "language": "사용 언어 : HTML, CSS, JavaScript",
+    "url": " https://gracejoo26.github.io/leicaKoreaWeb/",
+    "url_02": "detailpage_leica.html"
+  },
+  {
+    "picture": "dino.png",
+    "name": "프로젝트 이름 : 공룡 게임",
+    "period": " 제작 기간 : 2021. 01. 15 ",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : mobile, PC (2가지 타입 반응형)",
+    "language": "사용 언어 : HTML, CSS, JavaScript",
+    "url": " https://gracejoo26.github.io/dinosaur_game/",
+    "url_02": "detailpage_dinoGame.html"
+  },
+  {
+    "picture": "chunsik_login.png",
+    "name": "프로젝트 이름 : 춘식이_로그인페이지",
+    "period": " 제작 기간 : 2021. 02. 05 ",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : PC ",
+    "language": "사용 언어 : HTML, CSS, JavaScript",
+    "url": "  https://gracejoo26.github.io/chunsik_login/",
+    "url_02": "detailpage_chunsik.html"
+  },
+  {
+    "picture": "gise_kr.png",
+    "name": "프로젝트 이름 : 경기융합과학교육원 메인페이지 퍼블리싱",
+    "period": " 제작 기간 : 2021. 04 .23 ~ 2021. 04 .27 (3일) ",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : PC, mobile ",
+    "language": "사용 언어 : HTML, CSS",
+    "url": "  https://gise.kr",
+    "url_02": "."
+  },
+  {
+    "picture": "hansen.jpg",
+    "name": "프로젝트 이름 : 한센인 피해사건 진상규명 홈페이지 퍼블리싱",
+    "period": " 제작 기간 : 2021. 05. 10 ~ 2021. 05. 13 ",
+    "hmany": "제작 인원 : 2명",
+    "device": "디바이스 크기 : PC ",
+    "language": "사용 언어 : HTML, CSS",
+    "url": " http://hansentruth.kr/",
+    "url_02": "."
+  },
+  {
+    "picture": "starbucks.png",
+    "name": "프로젝트 이름 : 스타벅스_메인페이지",
+    "period": " 제작 기간 : 2021. 06. 22 ~ 2022.06.29 ",
+    "hmany": "제작 인원 : 1명",
+    "device": "디바이스 크기 : PC ",
+    "language": "사용 언어 : HTML, CSS, JavaScript",
+    "url": "  https://gracejoo26.github.io/starbucks/",
+    "url_02": "."
+  }
 ]
